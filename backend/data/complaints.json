@@ -1,0 +1,2862 @@
+[
+  {
+    "id": "AFR-2026-0001",
+    "citizen_id": 1,
+    "title": "Suspicious Payment Link",
+    "description": "I received a WhatsApp message containing a payment link. The sender asked me to make a payment urgently. I believe this may be a fraud attempt.",
+    "incident_date": "2026-10-05",
+    "location": "Coimbatore",
+    "incident_type": "Cybercrime",
+    "people_involved": "Unknown sender",
+    "contact_info": "ravi@gmail.com",
+    "status": "SUBMITTED",
+    "created_at": "2026-10-08",
+    "ai_analysis": {
+      "summary": "The complainant reports an incident regarding 'Suspicious Payment Link'. Key facts stated: I received a WhatsApp message containing a payment link. The sender asked me to make a payment urgently. I believe this may be a fraud attempt.",
+      "incident_type": "Cybercrime",
+      "people_mentioned": [
+        "Complainant and Suspected Party"
+      ],
+      "important_information": [
+        "I received a WhatsApp message containing a payment link",
+        "The sender asked me to make a payment urgently",
+        "I believe this may be a fraud attempt"
+      ],
+      "evidence_mentioned": [
+        "Malicious Web / Payment Hyperlink URL",
+        "Chat Messages / SMS Records"
+      ],
+      "missing_information": [
+        "Specific Bank Transaction ID / UTR Reference Number",
+        "Exact Financial Amount or Asset Valuation",
+        "Suspect Contact Mobile Number or Platform Handle",
+        "Supporting Digital Screenshot or Proof of Transaction"
+      ],
+      "risk_flags": [
+        "Urgent Financial Fraud / Fund Diversion Vector"
+      ],
+      "mode": "Demo AI Mode (Deterministic Academic Engine)",
+      "disclaimer": "AI-generated analysis for academic demonstration only."
+    },
+    "crime_prediction": {
+      "category": "Cybercrime",
+      "confidence": 63.75,
+      "top_categories": [
+        {
+          "category": "Cybercrime",
+          "probability": 63.75
+        },
+        {
+          "category": "Fraud",
+          "probability": 6.62
+        },
+        {
+          "category": "Theft",
+          "probability": 5.43
+        },
+        {
+          "category": "Harassment",
+          "probability": 5.27
+        }
+      ],
+      "model": "TF-IDF + Logistic Regression",
+      "metrics": {
+        "accuracy": 100.0,
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "macro_f1": 100.0
+      }
+    },
+    "legal_references": [
+      {
+        "id": "LAW001",
+        "title": "Cyber Fraud & Cheating by Personation",
+        "section": "Sec 66D IT Act 2000 / Sec 318(4) BNS 2023 (IPC 420)",
+        "act": "Information Technology Act 2000 & Bharatiya Nyaya Sanhita",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 3 years and fine up to ₹1,00,000",
+        "key_elements": [
+          "Use of computer resource, mobile network, or messaging application",
+          "Deceptive impersonation of bank official, enterprise, or authority",
+          "Dishonest inducement to extract OTP, credentials, or funds"
+        ],
+        "procedural_guidelines": "Issue immediate preservation directive under Sec 91 CrPC/BNSS to payment intermediary; register freeze order with National Cyber Crime Reporting Portal (1930).",
+        "content": "Cyber fraud involves fraudulent activities carried out using electronic communication, such as emails, WhatsApp, phishing links, or rogue payment interfaces. Victims are deceived into transferring money, sharing OTPs, or revealing UPI credentials. Under Section 66D of the IT Act, cheating by personation using computer resource is punishable with imprisonment up to 3 years.",
+        "similarity": 85.1,
+        "raw_score": 0.5058,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 66D IT Act 2000 / Sec 318(4) BNS 2023 (IPC 420) semantically matches reported facts with 85.1% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW004",
+        "title": "Criminal Breach of Trust & Fraudulent Deception",
+        "section": "Sec 316 / 318 BNS 2023 (Sec 406 / 420 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 7 years and fine",
+        "key_elements": [
+          "Entrustment of property or financial dominion",
+          "Dishonest misappropriation or conversion for personal enrichment",
+          "Intentional fraud, false assurances, or forged commercial documents"
+        ],
+        "procedural_guidelines": "Procure certified banking audit trails, agreements, and audited accounts under Sec 65B/63 Indian Evidence Act.",
+        "content": "Fraud and criminal breach of trust occur when an offender is entrusted with money, assets, or property and dishonestly converts or misappropriates it for personal gain, or fraudulently induces the victim into executing a contract based on false pretexts.",
+        "similarity": 73.9,
+        "raw_score": 0.399,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 316 / 318 BNS 2023 (Sec 406 / 420 IPC) semantically matches reported facts with 73.9% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW006",
+        "title": "Cyber Stalking, Voyeurism & Electronic Harassment",
+        "section": "Sec 78 BNS 2023 (Sec 354D IPC) & Sec 67 IT Act",
+        "act": "Bharatiya Nyaya Sanhita 2023 & Information Technology Act",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable (first offence) / Non-Bailable (subsequent)",
+        "punishment": "Imprisonment up to 3 years (up to 5 years on repeat) and fine",
+        "key_elements": [
+          "Repeated monitoring of victim internet activity, email, or social profiles",
+          "Unwanted persistent contact despite clear disinterest",
+          "Creation of defamatory impersonation handles or transmission of obscene content"
+        ],
+        "procedural_guidelines": "Issue notice under Sec 79(3)(b) IT Act to social media intermediary to freeze profile and disclose IP signup headers.",
+        "content": "Stalking includes following, contacting, or attempting to contact a person repeatedly despite disinterest, as well as monitoring a person's internet use, social media accounts, or phone messaging. Transmission of obscene digital material additionally invokes Section 67 of the IT Act.",
+        "similarity": 72.0,
+        "raw_score": 0.3808,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 78 BNS 2023 (Sec 354D IPC) & Sec 67 IT Act semantically matches reported facts with 72.0% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "similar_cases": [
+      {
+        "id": "CASE001",
+        "fir_number": "FIR-2023-CYB-0142",
+        "title": "Online UPI Phishing & Fake Payment Request",
+        "police_station": "Cyber Crime Police Station, Central Range",
+        "applicable_sections": "Sec 66D IT Act, Sec 420 IPC",
+        "disposition": "Chargesheet Filed (Accused Traced via Bank Node)",
+        "modus_operandi": "Victim received an urgent WhatsApp/SMS message with an APK or web link masquerading as an electricity bill update. Clicking prompted UPI PIN entry, routing funds to mule account.",
+        "description": "Victim received a fake payment request through a messaging app and transferred money to an unknown account.",
+        "similarity": 97.9,
+        "raw_score": 0.6276,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE003",
+        "fir_number": "FIR-2023-CYB-0294",
+        "title": "Fake E-Commerce Social Ad Scam",
+        "police_station": "Cyber Cell, Metro Division",
+        "applicable_sections": "Sec 66D IT Act, Sec 420 IPC",
+        "disposition": "Mule Accounts Frozen via Nodal Liaison",
+        "modus_operandi": "Created sponsored social media advertisements offering electronics at 80% discount. Collected advance payments through temporary QR codes before dismantling the domain.",
+        "description": "Customer paid for an online order through a website but never received the product. The website later became inaccessible.",
+        "similarity": 74.6,
+        "raw_score": 0.4053,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE007",
+        "fir_number": "FIR-2023-CYB-0419",
+        "title": "Bank Officer Impersonation & OTP Fraud",
+        "police_station": "State Cyber Command",
+        "applicable_sections": "Sec 66D IT Act, Sec 419/420 IPC",
+        "disposition": "Beneficiary Wallet Frozen at Payment Gateway",
+        "modus_operandi": "Caller spoofed bank helpline number, warned customer of imminent credit card block, and induced customer to read out the SMS verification code.",
+        "description": "Victim received a call from someone impersonating a bank official and was tricked into sharing OTP.",
+        "similarity": 73.8,
+        "raw_score": 0.3983,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "evidence": [],
+    "investigation_notes": []
+  },
+  {
+    "id": "AFR-2026-0002",
+    "citizen_id": 2,
+    "title": "Mobile Phone Theft",
+    "description": "My mobile phone was stolen from a public bus near the railway station while I was travelling.",
+    "incident_date": "2026-10-06",
+    "location": "Madurai",
+    "incident_type": "Theft",
+    "people_involved": "Unknown thief",
+    "contact_info": "priya@gmail.com",
+    "status": "UNDER_REVIEW",
+    "created_at": "2026-10-07",
+    "ai_analysis": {
+      "summary": "The complainant reports an incident regarding 'Mobile Phone Theft'. Key facts stated: My mobile phone was stolen from a public bus near the railway station while I was travelling.",
+      "incident_type": "Theft",
+      "people_mentioned": [
+        "Complainant and Suspected Party"
+      ],
+      "important_information": [
+        "My mobile phone was stolen from a public bus near the railway station while I was travelling"
+      ],
+      "evidence_mentioned": [
+        "Complainant Initial Written Statement"
+      ],
+      "missing_information": [
+        "Specific Bank Transaction ID / UTR Reference Number",
+        "Exact Financial Amount or Asset Valuation",
+        "Suspect Contact Mobile Number or Platform Handle",
+        "Supporting Digital Screenshot or Proof of Transaction"
+      ],
+      "risk_flags": [
+        "General Public Grievance / Non-Immediate Hazard"
+      ],
+      "mode": "Demo AI Mode (Deterministic Academic Engine)",
+      "disclaimer": "AI-generated analysis for academic demonstration only."
+    },
+    "crime_prediction": {
+      "category": "Theft",
+      "confidence": 77.03,
+      "top_categories": [
+        {
+          "category": "Theft",
+          "probability": 77.03
+        },
+        {
+          "category": "Robbery",
+          "probability": 4.43
+        },
+        {
+          "category": "Other",
+          "probability": 3.86
+        },
+        {
+          "category": "Assault",
+          "probability": 3.82
+        }
+      ],
+      "model": "TF-IDF + Logistic Regression",
+      "metrics": {
+        "accuracy": 100.0,
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "macro_f1": 100.0
+      }
+    },
+    "legal_references": [
+      {
+        "id": "LAW002",
+        "title": "Theft of Movable Property & Pickpocketing",
+        "section": "Sec 303(2) BNS 2023 (Sec 379 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 3 years, or fine, or both",
+        "key_elements": [
+          "Dishonest intention to take movable property",
+          "Taking property out of possession of any person without consent",
+          "Moving of property in order to effect such taking"
+        ],
+        "procedural_guidelines": "Blacklist device IMEI in National CEIR portal immediately; retrieve transport junction CCTV logs within 24 hours.",
+        "content": "Theft consists of dishonestly taking any movable property out of the possession of any person without their consent. In cases involving stolen mobile phones, electronic devices, or transit pickpocketing, Section 303(2) of BNS (IPC 379) applies. The offence requires demonstrating dishonest removal from victim custody.",
+        "similarity": 86.4,
+        "raw_score": 0.5178,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 303(2) BNS 2023 (Sec 379 IPC) semantically matches reported facts with 86.4% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW003",
+        "title": "Robbery & Extortion with Force or Weapon",
+        "section": "Sec 309 BNS 2023 (Sec 392 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Rigorous imprisonment up to 10 years (14 years if committed on highway)",
+        "key_elements": [
+          "Theft or extortion accomplished by causing or attempting to cause hurt",
+          "Inducing instant fear of death, grievous hurt, or wrongful restraint",
+          "Physical confrontation or weapon brandishment at the scene"
+        ],
+        "procedural_guidelines": "Deploy mobile forensics team to crime scene; preserve tire tracks or motorcycle surveillance footage along getaway trajectory.",
+        "content": "Robbery is aggravated theft or extortion committed when the offender causes or attempts to cause death, hurt, or wrongful restraint, or fear of instant hurt. Snatching incidents involving weapons, physical assault, or threats of violence qualify as robbery under Section 309 BNS (IPC 392).",
+        "similarity": 76.1,
+        "raw_score": 0.4198,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 309 BNS 2023 (Sec 392 IPC) semantically matches reported facts with 76.1% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW009",
+        "title": "Identity Theft & Unauthorized Digital Access",
+        "section": "Sec 66C IT Act 2000 & Sec 319 BNS 2023",
+        "act": "Information Technology Act 2000 & Bharatiya Nyaya Sanhita",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable / Non-Bailable based on loss",
+        "punishment": "Imprisonment up to 3 years and fine up to ₹1,00,000",
+        "key_elements": [
+          "Fraudulent use of electronic signature, password, or biometric unique ID",
+          "Unauthorized access to email, banking, or cloud repositories",
+          "Masquerading as authentic credential holder to inflict injury or gain"
+        ],
+        "procedural_guidelines": "Secure server audit logs, hash values, and Multi-Factor Authentication session tokens.",
+        "content": "Identity theft occurs when an offender fraudulently or dishonestly makes use of the electronic signature, password, or other unique identification feature of any other person. Section 66C of the IT Act criminalizes identity theft.",
+        "similarity": 66.7,
+        "raw_score": 0.3304,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 66C IT Act 2000 & Sec 319 BNS 2023 semantically matches reported facts with 66.7% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "similar_cases": [
+      {
+        "id": "CASE002",
+        "fir_number": "FIR-2023-TRN-0388",
+        "title": "Mobile Phone Snatching from Transit Bus",
+        "police_station": "Railway & Transit Police Station",
+        "applicable_sections": "Sec 379 IPC / Sec 303(2) BNS",
+        "disposition": "Property Recovered via CEIR IMEI Tracking",
+        "modus_operandi": "Thieves operated in pairs near rear footboard of crowded municipal transport bus; distracted victim during boarding and slipped mobile phone from pocket.",
+        "description": "Mobile phone stolen from a public bus near the railway station while the victim was travelling.",
+        "similarity": 98.5,
+        "raw_score": 0.8029,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE011",
+        "fir_number": "FIR-2023-TRN-0518",
+        "title": "Marketplace Pickpocketing & Wallet Theft",
+        "police_station": "Market Yard Police Station",
+        "applicable_sections": "Sec 379 IPC / Sec 303 BNS",
+        "disposition": "CCTV Evidence Corroborated; Habitual Offender Convicted",
+        "modus_operandi": "Slipped wallet from victim's trouser pocket amidst Sunday morning market crowd; immediately discarded credit cards in public bin and retained cash.",
+        "description": "Wallet and phone were pickpocketed by a thief in a crowded market area.",
+        "similarity": 84.3,
+        "raw_score": 0.4977,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE013",
+        "fir_number": "FIR-2023-TRN-0412",
+        "title": "Two-Wheeler Vehicle Theft from Residential Road",
+        "police_station": "South Suburban Police Station",
+        "applicable_sections": "Sec 379 IPC / Sec 303 BNS",
+        "disposition": "Vehicle Traced via Automatic Number Plate Recognition (ANPR)",
+        "modus_operandi": "Used master motorcycle key to unlock handle lock within 40 seconds; rode vehicle across district border to sell spare parts.",
+        "description": "Two-wheeler was stolen from outside the apartment parking area. No CCTV was available.",
+        "similarity": 80.3,
+        "raw_score": 0.4597,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "evidence": [],
+    "investigation_notes": []
+  },
+  {
+    "id": "AFR-2026-0003",
+    "citizen_id": 3,
+    "title": "Online Shopping Fraud",
+    "description": "I paid for an online order through a website but never received the product. The website is no longer accessible.",
+    "incident_date": "2026-09-28",
+    "location": "Chennai",
+    "incident_type": "Fraud",
+    "people_involved": "Unknown seller",
+    "contact_info": "arun@gmail.com",
+    "status": "INVESTIGATION",
+    "created_at": "2026-10-01",
+    "ai_analysis": {
+      "summary": "The complainant reports an incident regarding 'Online Shopping Fraud'. Key facts stated: I paid for an online order through a website but never received the product. The website is no longer accessible.",
+      "incident_type": "Fraud",
+      "people_mentioned": [
+        "Complainant and Suspected Party"
+      ],
+      "important_information": [
+        "I paid for an online order through a website but never received the product",
+        "The website is no longer accessible"
+      ],
+      "evidence_mentioned": [
+        "Complainant Initial Written Statement"
+      ],
+      "missing_information": [
+        "Specific Bank Transaction ID / UTR Reference Number",
+        "Exact Financial Amount or Asset Valuation",
+        "Suspect Contact Mobile Number or Platform Handle",
+        "Supporting Digital Screenshot or Proof of Transaction"
+      ],
+      "risk_flags": [
+        "General Public Grievance / Non-Immediate Hazard"
+      ],
+      "mode": "Demo AI Mode (Deterministic Academic Engine)",
+      "disclaimer": "AI-generated analysis for academic demonstration only."
+    },
+    "crime_prediction": {
+      "category": "Fraud",
+      "confidence": 28.9,
+      "top_categories": [
+        {
+          "category": "Fraud",
+          "probability": 28.9
+        },
+        {
+          "category": "Cybercrime",
+          "probability": 24.52
+        },
+        {
+          "category": "Theft",
+          "probability": 9.98
+        },
+        {
+          "category": "Harassment",
+          "probability": 9.01
+        }
+      ],
+      "model": "TF-IDF + Logistic Regression",
+      "metrics": {
+        "accuracy": 100.0,
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "macro_f1": 100.0
+      }
+    },
+    "legal_references": [
+      {
+        "id": "LAW001",
+        "title": "Cyber Fraud & Cheating by Personation",
+        "section": "Sec 66D IT Act 2000 / Sec 318(4) BNS 2023 (IPC 420)",
+        "act": "Information Technology Act 2000 & Bharatiya Nyaya Sanhita",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 3 years and fine up to ₹1,00,000",
+        "key_elements": [
+          "Use of computer resource, mobile network, or messaging application",
+          "Deceptive impersonation of bank official, enterprise, or authority",
+          "Dishonest inducement to extract OTP, credentials, or funds"
+        ],
+        "procedural_guidelines": "Issue immediate preservation directive under Sec 91 CrPC/BNSS to payment intermediary; register freeze order with National Cyber Crime Reporting Portal (1930).",
+        "content": "Cyber fraud involves fraudulent activities carried out using electronic communication, such as emails, WhatsApp, phishing links, or rogue payment interfaces. Victims are deceived into transferring money, sharing OTPs, or revealing UPI credentials. Under Section 66D of the IT Act, cheating by personation using computer resource is punishable with imprisonment up to 3 years.",
+        "similarity": 71.2,
+        "raw_score": 0.3738,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 66D IT Act 2000 / Sec 318(4) BNS 2023 (IPC 420) semantically matches reported facts with 71.2% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW004",
+        "title": "Criminal Breach of Trust & Fraudulent Deception",
+        "section": "Sec 316 / 318 BNS 2023 (Sec 406 / 420 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 7 years and fine",
+        "key_elements": [
+          "Entrustment of property or financial dominion",
+          "Dishonest misappropriation or conversion for personal enrichment",
+          "Intentional fraud, false assurances, or forged commercial documents"
+        ],
+        "procedural_guidelines": "Procure certified banking audit trails, agreements, and audited accounts under Sec 65B/63 Indian Evidence Act.",
+        "content": "Fraud and criminal breach of trust occur when an offender is entrusted with money, assets, or property and dishonestly converts or misappropriates it for personal gain, or fraudulently induces the victim into executing a contract based on false pretexts.",
+        "similarity": 67.9,
+        "raw_score": 0.3415,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 316 / 318 BNS 2023 (Sec 406 / 420 IPC) semantically matches reported facts with 67.9% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW009",
+        "title": "Identity Theft & Unauthorized Digital Access",
+        "section": "Sec 66C IT Act 2000 & Sec 319 BNS 2023",
+        "act": "Information Technology Act 2000 & Bharatiya Nyaya Sanhita",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable / Non-Bailable based on loss",
+        "punishment": "Imprisonment up to 3 years and fine up to ₹1,00,000",
+        "key_elements": [
+          "Fraudulent use of electronic signature, password, or biometric unique ID",
+          "Unauthorized access to email, banking, or cloud repositories",
+          "Masquerading as authentic credential holder to inflict injury or gain"
+        ],
+        "procedural_guidelines": "Secure server audit logs, hash values, and Multi-Factor Authentication session tokens.",
+        "content": "Identity theft occurs when an offender fraudulently or dishonestly makes use of the electronic signature, password, or other unique identification feature of any other person. Section 66C of the IT Act criminalizes identity theft.",
+        "similarity": 65.7,
+        "raw_score": 0.3211,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 66C IT Act 2000 & Sec 319 BNS 2023 semantically matches reported facts with 65.7% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "similar_cases": [
+      {
+        "id": "CASE003",
+        "fir_number": "FIR-2023-CYB-0294",
+        "title": "Fake E-Commerce Social Ad Scam",
+        "police_station": "Cyber Cell, Metro Division",
+        "applicable_sections": "Sec 66D IT Act, Sec 420 IPC",
+        "disposition": "Mule Accounts Frozen via Nodal Liaison",
+        "modus_operandi": "Created sponsored social media advertisements offering electronics at 80% discount. Collected advance payments through temporary QR codes before dismantling the domain.",
+        "description": "Customer paid for an online order through a website but never received the product. The website later became inaccessible.",
+        "similarity": 84.0,
+        "raw_score": 0.4956,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE001",
+        "fir_number": "FIR-2023-CYB-0142",
+        "title": "Online UPI Phishing & Fake Payment Request",
+        "police_station": "Cyber Crime Police Station, Central Range",
+        "applicable_sections": "Sec 66D IT Act, Sec 420 IPC",
+        "disposition": "Chargesheet Filed (Accused Traced via Bank Node)",
+        "modus_operandi": "Victim received an urgent WhatsApp/SMS message with an APK or web link masquerading as an electricity bill update. Clicking prompted UPI PIN entry, routing funds to mule account.",
+        "description": "Victim received a fake payment request through a messaging app and transferred money to an unknown account.",
+        "similarity": 79.0,
+        "raw_score": 0.448,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE007",
+        "fir_number": "FIR-2023-CYB-0419",
+        "title": "Bank Officer Impersonation & OTP Fraud",
+        "police_station": "State Cyber Command",
+        "applicable_sections": "Sec 66D IT Act, Sec 419/420 IPC",
+        "disposition": "Beneficiary Wallet Frozen at Payment Gateway",
+        "modus_operandi": "Caller spoofed bank helpline number, warned customer of imminent credit card block, and induced customer to read out the SMS verification code.",
+        "description": "Victim received a call from someone impersonating a bank official and was tricked into sharing OTP.",
+        "similarity": 64.5,
+        "raw_score": 0.3099,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "evidence": [],
+    "investigation_notes": []
+  },
+  {
+    "id": "AFR-2026-0004",
+    "citizen_id": 1,
+    "title": "Repeated Harassing Calls",
+    "description": "An unknown person has made repeated unwanted calls and messages over the last two weeks.",
+    "incident_date": "2026-09-20",
+    "location": "Coimbatore",
+    "incident_type": "Harassment",
+    "people_involved": "Unknown caller",
+    "contact_info": "ravi@gmail.com",
+    "status": "UNDER_REVIEW",
+    "created_at": "2026-09-22",
+    "ai_analysis": {
+      "summary": "The complainant reports an incident regarding 'Repeated Harassing Calls'. Key facts stated: An unknown person has made repeated unwanted calls and messages over the last two weeks.",
+      "incident_type": "Harassment",
+      "people_mentioned": [
+        "Unidentified Suspect / Anonymous Sender"
+      ],
+      "important_information": [
+        "An unknown person has made repeated unwanted calls and messages over the last two weeks"
+      ],
+      "evidence_mentioned": [
+        "Chat Messages / SMS Records"
+      ],
+      "missing_information": [
+        "Specific Bank Transaction ID / UTR Reference Number",
+        "Exact Financial Amount or Asset Valuation",
+        "Suspect Contact Mobile Number or Platform Handle",
+        "Supporting Digital Screenshot or Proof of Transaction"
+      ],
+      "risk_flags": [
+        "Intimidation / Continuous Harassment Threat"
+      ],
+      "mode": "Demo AI Mode (Deterministic Academic Engine)",
+      "disclaimer": "AI-generated analysis for academic demonstration only."
+    },
+    "crime_prediction": {
+      "category": "Harassment",
+      "confidence": 49.24,
+      "top_categories": [
+        {
+          "category": "Harassment",
+          "probability": 49.24
+        },
+        {
+          "category": "Theft",
+          "probability": 9.27
+        },
+        {
+          "category": "Other",
+          "probability": 7.89
+        },
+        {
+          "category": "Cybercrime",
+          "probability": 7.56
+        }
+      ],
+      "model": "TF-IDF + Logistic Regression",
+      "metrics": {
+        "accuracy": 100.0,
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "macro_f1": 100.0
+      }
+    },
+    "legal_references": [
+      {
+        "id": "LAW006",
+        "title": "Cyber Stalking, Voyeurism & Electronic Harassment",
+        "section": "Sec 78 BNS 2023 (Sec 354D IPC) & Sec 67 IT Act",
+        "act": "Bharatiya Nyaya Sanhita 2023 & Information Technology Act",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable (first offence) / Non-Bailable (subsequent)",
+        "punishment": "Imprisonment up to 3 years (up to 5 years on repeat) and fine",
+        "key_elements": [
+          "Repeated monitoring of victim internet activity, email, or social profiles",
+          "Unwanted persistent contact despite clear disinterest",
+          "Creation of defamatory impersonation handles or transmission of obscene content"
+        ],
+        "procedural_guidelines": "Issue notice under Sec 79(3)(b) IT Act to social media intermediary to freeze profile and disclose IP signup headers.",
+        "content": "Stalking includes following, contacting, or attempting to contact a person repeatedly despite disinterest, as well as monitoring a person's internet use, social media accounts, or phone messaging. Transmission of obscene digital material additionally invokes Section 67 of the IT Act.",
+        "similarity": 89.7,
+        "raw_score": 0.5497,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 78 BNS 2023 (Sec 354D IPC) & Sec 67 IT Act semantically matches reported facts with 89.7% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW001",
+        "title": "Cyber Fraud & Cheating by Personation",
+        "section": "Sec 66D IT Act 2000 / Sec 318(4) BNS 2023 (IPC 420)",
+        "act": "Information Technology Act 2000 & Bharatiya Nyaya Sanhita",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 3 years and fine up to ₹1,00,000",
+        "key_elements": [
+          "Use of computer resource, mobile network, or messaging application",
+          "Deceptive impersonation of bank official, enterprise, or authority",
+          "Dishonest inducement to extract OTP, credentials, or funds"
+        ],
+        "procedural_guidelines": "Issue immediate preservation directive under Sec 91 CrPC/BNSS to payment intermediary; register freeze order with National Cyber Crime Reporting Portal (1930).",
+        "content": "Cyber fraud involves fraudulent activities carried out using electronic communication, such as emails, WhatsApp, phishing links, or rogue payment interfaces. Victims are deceived into transferring money, sharing OTPs, or revealing UPI credentials. Under Section 66D of the IT Act, cheating by personation using computer resource is punishable with imprisonment up to 3 years.",
+        "similarity": 65.0,
+        "raw_score": 0.3144,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 66D IT Act 2000 / Sec 318(4) BNS 2023 (IPC 420) semantically matches reported facts with 65.0% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW007",
+        "title": "Criminal Trespass & Land Encroachment Disputes",
+        "section": "Sec 329 BNS 2023 (Sec 441 / 447 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable",
+        "punishment": "Imprisonment up to 3 months or fine up to ₹5,000",
+        "key_elements": [
+          "Entry into or upon property in possession of another",
+          "Intent to commit an offence or intimidate, insult, or annoy",
+          "Unlawfully remaining upon property after lawful entry"
+        ],
+        "procedural_guidelines": "Requisition municipal survey records and revenue title deeds; execute interim boundary protection report.",
+        "content": "Property disputes involving unauthorized entry or boundary encroachment with intent to commit an offence or intimidate the lawful occupant constitute criminal trespass under Section 329 BNS (IPC 447). Purely civil ownership claims require reference to competent civil courts.",
+        "similarity": 61.2,
+        "raw_score": 0.2781,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 329 BNS 2023 (Sec 441 / 447 IPC) semantically matches reported facts with 61.2% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "similar_cases": [
+      {
+        "id": "CASE009",
+        "fir_number": "FIR-2023-WOM-0199",
+        "title": "Persistent Social Media Cyber Stalking",
+        "police_station": "Women & Child Protection Wing",
+        "applicable_sections": "Sec 354D IPC, Sec 67 IT Act",
+        "disposition": "Accused Bound Over; Electronic Devices Confiscated",
+        "modus_operandi": "Created multiple anonymous Instagram and Snapchat handles to track complainant's movements, sending unwanted explicit photos and threatening phone calls.",
+        "description": "Woman reported repeated unwanted messages, calls and following by an acquaintance over several weeks.",
+        "similarity": 82.3,
+        "raw_score": 0.4794,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE007",
+        "fir_number": "FIR-2023-CYB-0419",
+        "title": "Bank Officer Impersonation & OTP Fraud",
+        "police_station": "State Cyber Command",
+        "applicable_sections": "Sec 66D IT Act, Sec 419/420 IPC",
+        "disposition": "Beneficiary Wallet Frozen at Payment Gateway",
+        "modus_operandi": "Caller spoofed bank helpline number, warned customer of imminent credit card block, and induced customer to read out the SMS verification code.",
+        "description": "Victim received a call from someone impersonating a bank official and was tricked into sharing OTP.",
+        "similarity": 69.2,
+        "raw_score": 0.3543,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE015",
+        "fir_number": "FIR-2023-CYB-0550",
+        "title": "Identity Impersonation on Social Media",
+        "police_station": "Cyber Crime Cell, District HQ",
+        "applicable_sections": "Sec 66C/66D IT Act, Sec 419 IPC",
+        "disposition": "Impersonator Account Deleted; Restraining Order Issued",
+        "modus_operandi": "Downloaded victim's profile pictures to set up clone Facebook account; solicited emergency loans from victim's contact list citing medical distress.",
+        "description": "Suspect cloned citizen profile to request emergency money from contacts.",
+        "similarity": 62.0,
+        "raw_score": 0.2855,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "evidence": [],
+    "investigation_notes": []
+  },
+  {
+    "id": "AFR-2026-0005",
+    "citizen_id": 2,
+    "title": "House Burglary",
+    "description": "Jewellery and electronics were missing after someone forced open the rear door while the family was away.",
+    "incident_date": "2026-09-18",
+    "location": "Madurai",
+    "incident_type": "Theft",
+    "people_involved": "Unknown intruder",
+    "contact_info": "priya@gmail.com",
+    "status": "INVESTIGATION",
+    "created_at": "2026-09-19",
+    "ai_analysis": {
+      "summary": "The complainant reports an incident regarding 'House Burglary'. Key facts stated: Jewellery and electronics were missing after someone forced open the rear door while the family was away.",
+      "incident_type": "Theft",
+      "people_mentioned": [
+        "Complainant and Suspected Party"
+      ],
+      "important_information": [
+        "Jewellery and electronics were missing after someone forced open the rear door while the family was away"
+      ],
+      "evidence_mentioned": [
+        "Complainant Initial Written Statement"
+      ],
+      "missing_information": [
+        "Specific Bank Transaction ID / UTR Reference Number",
+        "Exact Financial Amount or Asset Valuation",
+        "Suspect Contact Mobile Number or Platform Handle",
+        "Supporting Digital Screenshot or Proof of Transaction"
+      ],
+      "risk_flags": [
+        "General Public Grievance / Non-Immediate Hazard"
+      ],
+      "mode": "Demo AI Mode (Deterministic Academic Engine)",
+      "disclaimer": "AI-generated analysis for academic demonstration only."
+    },
+    "crime_prediction": {
+      "category": "Robbery",
+      "confidence": 23.21,
+      "top_categories": [
+        {
+          "category": "Robbery",
+          "probability": 23.21
+        },
+        {
+          "category": "Theft",
+          "probability": 20.74
+        },
+        {
+          "category": "Assault",
+          "probability": 13.83
+        },
+        {
+          "category": "Other",
+          "probability": 10.71
+        }
+      ],
+      "model": "TF-IDF + Logistic Regression",
+      "metrics": {
+        "accuracy": 100.0,
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "macro_f1": 100.0
+      }
+    },
+    "legal_references": [
+      {
+        "id": "LAW002",
+        "title": "Theft of Movable Property & Pickpocketing",
+        "section": "Sec 303(2) BNS 2023 (Sec 379 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 3 years, or fine, or both",
+        "key_elements": [
+          "Dishonest intention to take movable property",
+          "Taking property out of possession of any person without consent",
+          "Moving of property in order to effect such taking"
+        ],
+        "procedural_guidelines": "Blacklist device IMEI in National CEIR portal immediately; retrieve transport junction CCTV logs within 24 hours.",
+        "content": "Theft consists of dishonestly taking any movable property out of the possession of any person without their consent. In cases involving stolen mobile phones, electronic devices, or transit pickpocketing, Section 303(2) of BNS (IPC 379) applies. The offence requires demonstrating dishonest removal from victim custody.",
+        "similarity": 79.7,
+        "raw_score": 0.4538,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 303(2) BNS 2023 (Sec 379 IPC) semantically matches reported facts with 79.7% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW003",
+        "title": "Robbery & Extortion with Force or Weapon",
+        "section": "Sec 309 BNS 2023 (Sec 392 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Rigorous imprisonment up to 10 years (14 years if committed on highway)",
+        "key_elements": [
+          "Theft or extortion accomplished by causing or attempting to cause hurt",
+          "Inducing instant fear of death, grievous hurt, or wrongful restraint",
+          "Physical confrontation or weapon brandishment at the scene"
+        ],
+        "procedural_guidelines": "Deploy mobile forensics team to crime scene; preserve tire tracks or motorcycle surveillance footage along getaway trajectory.",
+        "content": "Robbery is aggravated theft or extortion committed when the offender causes or attempts to cause death, hurt, or wrongful restraint, or fear of instant hurt. Snatching incidents involving weapons, physical assault, or threats of violence qualify as robbery under Section 309 BNS (IPC 392).",
+        "similarity": 75.2,
+        "raw_score": 0.411,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 309 BNS 2023 (Sec 392 IPC) semantically matches reported facts with 75.2% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW008",
+        "title": "House-Breaking by Night & Criminal Burglary",
+        "section": "Sec 331 BNS 2023 (Sec 457 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 14 years and fine",
+        "key_elements": [
+          "Forced or unauthorized ingress into human dwelling",
+          "Commission of entry by night (between sunset and sunrise)",
+          "Accompanied by intent to commit theft or punishable felony"
+        ],
+        "procedural_guidelines": "Secure latent finger/palm prints on door hardware; summon forensic canine unit and crime scene documentation squad.",
+        "content": "Burglary and house-breaking by night involve unlawful forced entry into a building or residential premises during nighttime hours with intent to commit theft. Carries severe statutory penalties under Section 331 BNS (IPC 457).",
+        "similarity": 71.6,
+        "raw_score": 0.3768,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 331 BNS 2023 (Sec 457 IPC) semantically matches reported facts with 71.6% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "similar_cases": [
+      {
+        "id": "CASE006",
+        "fir_number": "FIR-2023-CRM-0675",
+        "title": "Residential House Burglary by Forced Entry",
+        "police_station": "West Sub-Division Station",
+        "applicable_sections": "Sec 457 / 380 IPC / Sec 331 BNS",
+        "disposition": "Latent Fingerprints Matched in Criminal Database",
+        "modus_operandi": "Targeted locked residence whose residents were away on vacation; severed rear window grill using hydraulic iron shears and emptied main bedroom locker.",
+        "description": "House was burgled while the family was away. Jewellery and electronics were stolen through forced entry.",
+        "similarity": 98.5,
+        "raw_score": 0.6548,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE013",
+        "fir_number": "FIR-2023-TRN-0412",
+        "title": "Two-Wheeler Vehicle Theft from Residential Road",
+        "police_station": "South Suburban Police Station",
+        "applicable_sections": "Sec 379 IPC / Sec 303 BNS",
+        "disposition": "Vehicle Traced via Automatic Number Plate Recognition (ANPR)",
+        "modus_operandi": "Used master motorcycle key to unlock handle lock within 40 seconds; rode vehicle across district border to sell spare parts.",
+        "description": "Two-wheeler was stolen from outside the apartment parking area. No CCTV was available.",
+        "similarity": 66.4,
+        "raw_score": 0.3277,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE002",
+        "fir_number": "FIR-2023-TRN-0388",
+        "title": "Mobile Phone Snatching from Transit Bus",
+        "police_station": "Railway & Transit Police Station",
+        "applicable_sections": "Sec 379 IPC / Sec 303(2) BNS",
+        "disposition": "Property Recovered via CEIR IMEI Tracking",
+        "modus_operandi": "Thieves operated in pairs near rear footboard of crowded municipal transport bus; distracted victim during boarding and slipped mobile phone from pocket.",
+        "description": "Mobile phone stolen from a public bus near the railway station while the victim was travelling.",
+        "similarity": 65.7,
+        "raw_score": 0.321,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "evidence": [],
+    "investigation_notes": []
+  },
+  {
+    "id": "AFR-2026-0006",
+    "citizen_id": 3,
+    "title": "Neighbourhood Assault",
+    "description": "A disagreement about parking escalated into a physical assault and caused an injury to my arm.",
+    "incident_date": "2026-09-12",
+    "location": "Chennai",
+    "incident_type": "Assault",
+    "people_involved": "Neighbour",
+    "contact_info": "arun@gmail.com",
+    "status": "ACTION_TAKEN",
+    "created_at": "2026-09-13",
+    "ai_analysis": {
+      "summary": "The complainant reports an incident regarding 'Neighbourhood Assault'. Key facts stated: A disagreement about parking escalated into a physical assault and caused an injury to my arm.",
+      "incident_type": "Assault",
+      "people_mentioned": [
+        "Complainant and Suspected Party"
+      ],
+      "important_information": [
+        "A disagreement about parking escalated into a physical assault and caused an injury to my arm"
+      ],
+      "evidence_mentioned": [
+        "Complainant Initial Written Statement"
+      ],
+      "missing_information": [
+        "Specific Bank Transaction ID / UTR Reference Number",
+        "Exact Financial Amount or Asset Valuation",
+        "Suspect Contact Mobile Number or Platform Handle",
+        "Supporting Digital Screenshot or Proof of Transaction"
+      ],
+      "risk_flags": [
+        "Physical Violence / Bodily Harm Hazard"
+      ],
+      "mode": "Demo AI Mode (Deterministic Academic Engine)",
+      "disclaimer": "AI-generated analysis for academic demonstration only."
+    },
+    "crime_prediction": {
+      "category": "Assault",
+      "confidence": 28.33,
+      "top_categories": [
+        {
+          "category": "Assault",
+          "probability": 28.33
+        },
+        {
+          "category": "Property Dispute",
+          "probability": 14.54
+        },
+        {
+          "category": "Other",
+          "probability": 10.81
+        },
+        {
+          "category": "Robbery",
+          "probability": 10.62
+        }
+      ],
+      "model": "TF-IDF + Logistic Regression",
+      "metrics": {
+        "accuracy": 100.0,
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "macro_f1": 100.0
+      }
+    },
+    "legal_references": [
+      {
+        "id": "LAW005",
+        "title": "Voluntarily Causing Hurt & Physical Assault",
+        "section": "Sec 115 / 117 BNS 2023 (Sec 323 / 324 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable (if dangerous weapon used)",
+        "bailable": "Bailable / Non-Bailable based on severity",
+        "punishment": "Imprisonment from 1 to 3 years and fine",
+        "key_elements": [
+          "Act causing bodily pain, disease, or infirmity to victim",
+          "Knowledge or intention that injury will result from the physical action",
+          "Use of force or dangerous instruments"
+        ],
+        "procedural_guidelines": "Refer complainant for statutory Medical Legal Examination (MLC) at Government Hospital within 6 hours.",
+        "content": "Assault and voluntarily causing hurt involve acts causing bodily injury, trauma, or apprehension of immediate unlawful force. Where dangerous weapons or instruments are employed, severe statutory penalties apply under Section 117 BNS (IPC 324).",
+        "similarity": 75.5,
+        "raw_score": 0.4147,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 115 / 117 BNS 2023 (Sec 323 / 324 IPC) semantically matches reported facts with 75.5% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW007",
+        "title": "Criminal Trespass & Land Encroachment Disputes",
+        "section": "Sec 329 BNS 2023 (Sec 441 / 447 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable",
+        "punishment": "Imprisonment up to 3 months or fine up to ₹5,000",
+        "key_elements": [
+          "Entry into or upon property in possession of another",
+          "Intent to commit an offence or intimidate, insult, or annoy",
+          "Unlawfully remaining upon property after lawful entry"
+        ],
+        "procedural_guidelines": "Requisition municipal survey records and revenue title deeds; execute interim boundary protection report.",
+        "content": "Property disputes involving unauthorized entry or boundary encroachment with intent to commit an offence or intimidate the lawful occupant constitute criminal trespass under Section 329 BNS (IPC 447). Purely civil ownership claims require reference to competent civil courts.",
+        "similarity": 65.4,
+        "raw_score": 0.3178,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 329 BNS 2023 (Sec 441 / 447 IPC) semantically matches reported facts with 65.4% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW003",
+        "title": "Robbery & Extortion with Force or Weapon",
+        "section": "Sec 309 BNS 2023 (Sec 392 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Rigorous imprisonment up to 10 years (14 years if committed on highway)",
+        "key_elements": [
+          "Theft or extortion accomplished by causing or attempting to cause hurt",
+          "Inducing instant fear of death, grievous hurt, or wrongful restraint",
+          "Physical confrontation or weapon brandishment at the scene"
+        ],
+        "procedural_guidelines": "Deploy mobile forensics team to crime scene; preserve tire tracks or motorcycle surveillance footage along getaway trajectory.",
+        "content": "Robbery is aggravated theft or extortion committed when the offender causes or attempts to cause death, hurt, or wrongful restraint, or fear of instant hurt. Snatching incidents involving weapons, physical assault, or threats of violence qualify as robbery under Section 309 BNS (IPC 392).",
+        "similarity": 64.8,
+        "raw_score": 0.312,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 309 BNS 2023 (Sec 392 IPC) semantically matches reported facts with 64.8% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "similar_cases": [
+      {
+        "id": "CASE008",
+        "fir_number": "FIR-2022-L&O-0210",
+        "title": "Boundary Dispute Assault with Hurt",
+        "police_station": "East Rural Police Station",
+        "applicable_sections": "Sec 324 / 506 IPC / Sec 117 BNS",
+        "disposition": "Mutual Settlement Under Magistrate Supervision",
+        "modus_operandi": "Dispute between adjacent landholders escalated into heated argument; accused used wooden club causing blunt force contusion to complainant's shoulder.",
+        "description": "Person was assaulted during a neighbourhood property dispute. Injuries required medical attention.",
+        "similarity": 98.5,
+        "raw_score": 0.6834,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE005",
+        "fir_number": "FIR-2023-CRM-0812",
+        "title": "Daylight Motorcycle Chain Snatching",
+        "police_station": "North Town Police Station",
+        "applicable_sections": "Sec 392 IPC (Robbery) / Sec 309 BNS",
+        "disposition": "Accused Apprehended; Jewellery Restored",
+        "modus_operandi": "Two motorcycle riders with masked faces targeted lone pedestrian on low-traffic service lane; pillion rider snatched gold chain with physical jerk causing victim to fall.",
+        "description": "Gold chain was snatched by two persons on a motorcycle near a busy market road.",
+        "similarity": 57.7,
+        "raw_score": 0.2447,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Contextual Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE006",
+        "fir_number": "FIR-2023-CRM-0675",
+        "title": "Residential House Burglary by Forced Entry",
+        "police_station": "West Sub-Division Station",
+        "applicable_sections": "Sec 457 / 380 IPC / Sec 331 BNS",
+        "disposition": "Latent Fingerprints Matched in Criminal Database",
+        "modus_operandi": "Targeted locked residence whose residents were away on vacation; severed rear window grill using hydraulic iron shears and emptied main bedroom locker.",
+        "description": "House was burgled while the family was away. Jewellery and electronics were stolen through forced entry.",
+        "similarity": 53.7,
+        "raw_score": 0.2063,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Contextual Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "evidence": [],
+    "investigation_notes": []
+  },
+  {
+    "id": "AFR-2026-0007",
+    "citizen_id": 1,
+    "title": "Fake Investment Scheme",
+    "description": "A person promised high returns on an investment, accepted money, and stopped responding.",
+    "incident_date": "2026-09-05",
+    "location": "Coimbatore",
+    "incident_type": "Fraud",
+    "people_involved": "Unknown promoter",
+    "contact_info": "ravi@gmail.com",
+    "status": "CLOSED",
+    "created_at": "2026-09-07",
+    "ai_analysis": {
+      "summary": "The complainant reports an incident regarding 'Fake Investment Scheme'. Key facts stated: A person promised high returns on an investment, accepted money, and stopped responding.",
+      "incident_type": "Fraud",
+      "people_mentioned": [
+        "Complainant and Suspected Party"
+      ],
+      "important_information": [
+        "A person promised high returns on an investment, accepted money, and stopped responding"
+      ],
+      "evidence_mentioned": [
+        "Complainant Initial Written Statement"
+      ],
+      "missing_information": [
+        "Specific Bank Transaction ID / UTR Reference Number",
+        "Exact Financial Amount or Asset Valuation",
+        "Suspect Contact Mobile Number or Platform Handle",
+        "Supporting Digital Screenshot or Proof of Transaction"
+      ],
+      "risk_flags": [
+        "Urgent Financial Fraud / Fund Diversion Vector"
+      ],
+      "mode": "Demo AI Mode (Deterministic Academic Engine)",
+      "disclaimer": "AI-generated analysis for academic demonstration only."
+    },
+    "crime_prediction": {
+      "category": "Fraud",
+      "confidence": 45.63,
+      "top_categories": [
+        {
+          "category": "Fraud",
+          "probability": 45.63
+        },
+        {
+          "category": "Cybercrime",
+          "probability": 16.18
+        },
+        {
+          "category": "Harassment",
+          "probability": 8.82
+        },
+        {
+          "category": "Robbery",
+          "probability": 7.69
+        }
+      ],
+      "model": "TF-IDF + Logistic Regression",
+      "metrics": {
+        "accuracy": 100.0,
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "macro_f1": 100.0
+      }
+    },
+    "legal_references": [
+      {
+        "id": "LAW004",
+        "title": "Criminal Breach of Trust & Fraudulent Deception",
+        "section": "Sec 316 / 318 BNS 2023 (Sec 406 / 420 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 7 years and fine",
+        "key_elements": [
+          "Entrustment of property or financial dominion",
+          "Dishonest misappropriation or conversion for personal enrichment",
+          "Intentional fraud, false assurances, or forged commercial documents"
+        ],
+        "procedural_guidelines": "Procure certified banking audit trails, agreements, and audited accounts under Sec 65B/63 Indian Evidence Act.",
+        "content": "Fraud and criminal breach of trust occur when an offender is entrusted with money, assets, or property and dishonestly converts or misappropriates it for personal gain, or fraudulently induces the victim into executing a contract based on false pretexts.",
+        "similarity": 85.7,
+        "raw_score": 0.5112,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 316 / 318 BNS 2023 (Sec 406 / 420 IPC) semantically matches reported facts with 85.7% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW001",
+        "title": "Cyber Fraud & Cheating by Personation",
+        "section": "Sec 66D IT Act 2000 / Sec 318(4) BNS 2023 (IPC 420)",
+        "act": "Information Technology Act 2000 & Bharatiya Nyaya Sanhita",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 3 years and fine up to ₹1,00,000",
+        "key_elements": [
+          "Use of computer resource, mobile network, or messaging application",
+          "Deceptive impersonation of bank official, enterprise, or authority",
+          "Dishonest inducement to extract OTP, credentials, or funds"
+        ],
+        "procedural_guidelines": "Issue immediate preservation directive under Sec 91 CrPC/BNSS to payment intermediary; register freeze order with National Cyber Crime Reporting Portal (1930).",
+        "content": "Cyber fraud involves fraudulent activities carried out using electronic communication, such as emails, WhatsApp, phishing links, or rogue payment interfaces. Victims are deceived into transferring money, sharing OTPs, or revealing UPI credentials. Under Section 66D of the IT Act, cheating by personation using computer resource is punishable with imprisonment up to 3 years.",
+        "similarity": 74.0,
+        "raw_score": 0.4003,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 66D IT Act 2000 / Sec 318(4) BNS 2023 (IPC 420) semantically matches reported facts with 74.0% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW003",
+        "title": "Robbery & Extortion with Force or Weapon",
+        "section": "Sec 309 BNS 2023 (Sec 392 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Rigorous imprisonment up to 10 years (14 years if committed on highway)",
+        "key_elements": [
+          "Theft or extortion accomplished by causing or attempting to cause hurt",
+          "Inducing instant fear of death, grievous hurt, or wrongful restraint",
+          "Physical confrontation or weapon brandishment at the scene"
+        ],
+        "procedural_guidelines": "Deploy mobile forensics team to crime scene; preserve tire tracks or motorcycle surveillance footage along getaway trajectory.",
+        "content": "Robbery is aggravated theft or extortion committed when the offender causes or attempts to cause death, hurt, or wrongful restraint, or fear of instant hurt. Snatching incidents involving weapons, physical assault, or threats of violence qualify as robbery under Section 309 BNS (IPC 392).",
+        "similarity": 59.4,
+        "raw_score": 0.2612,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 309 BNS 2023 (Sec 392 IPC) semantically matches reported facts with 59.4% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "similar_cases": [
+      {
+        "id": "CASE010",
+        "fir_number": "FIR-2023-EOW-0341",
+        "title": "Multi-Level High-Yield Ponzi Scheme",
+        "police_station": "Economic Offences Wing (EOW)",
+        "applicable_sections": "Prize Chits Act, Sec 406/420 IPC",
+        "disposition": "Director Assets Attached Under State Deposit Protection Act",
+        "modus_operandi": "Promoted crypto-trading scheme promising 18% guaranteed monthly dividends; paid early returns using new deposits before founders fled overseas.",
+        "description": "Victim invested money in a promised high-return scheme that later disappeared along with the money.",
+        "similarity": 90.8,
+        "raw_score": 0.5602,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE003",
+        "fir_number": "FIR-2023-CYB-0294",
+        "title": "Fake E-Commerce Social Ad Scam",
+        "police_station": "Cyber Cell, Metro Division",
+        "applicable_sections": "Sec 66D IT Act, Sec 420 IPC",
+        "disposition": "Mule Accounts Frozen via Nodal Liaison",
+        "modus_operandi": "Created sponsored social media advertisements offering electronics at 80% discount. Collected advance payments through temporary QR codes before dismantling the domain.",
+        "description": "Customer paid for an online order through a website but never received the product. The website later became inaccessible.",
+        "similarity": 74.1,
+        "raw_score": 0.4009,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE001",
+        "fir_number": "FIR-2023-CYB-0142",
+        "title": "Online UPI Phishing & Fake Payment Request",
+        "police_station": "Cyber Crime Police Station, Central Range",
+        "applicable_sections": "Sec 66D IT Act, Sec 420 IPC",
+        "disposition": "Chargesheet Filed (Accused Traced via Bank Node)",
+        "modus_operandi": "Victim received an urgent WhatsApp/SMS message with an APK or web link masquerading as an electricity bill update. Clicking prompted UPI PIN entry, routing funds to mule account.",
+        "description": "Victim received a fake payment request through a messaging app and transferred money to an unknown account.",
+        "similarity": 72.1,
+        "raw_score": 0.3817,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "evidence": [],
+    "investigation_notes": []
+  },
+  {
+    "id": "AFR-2026-0008",
+    "citizen_id": 2,
+    "title": "Land Boundary Dispute",
+    "description": "A neighbouring party has placed a fence on disputed land and is claiming ownership of the boundary.",
+    "incident_date": "2026-08-30",
+    "location": "Madurai",
+    "incident_type": "Property Dispute",
+    "people_involved": "Neighbouring land owner",
+    "contact_info": "priya@gmail.com",
+    "status": "SUBMITTED",
+    "created_at": "2026-09-01",
+    "ai_analysis": {
+      "summary": "The complainant reports an incident regarding 'Land Boundary Dispute'. Key facts stated: A neighbouring party has placed a fence on disputed land and is claiming ownership of the boundary.",
+      "incident_type": "Property Dispute",
+      "people_mentioned": [
+        "Complainant and Suspected Party"
+      ],
+      "important_information": [
+        "A neighbouring party has placed a fence on disputed land and is claiming ownership of the boundary"
+      ],
+      "evidence_mentioned": [
+        "Complainant Initial Written Statement"
+      ],
+      "missing_information": [
+        "Specific Bank Transaction ID / UTR Reference Number",
+        "Exact Financial Amount or Asset Valuation",
+        "Suspect Contact Mobile Number or Platform Handle",
+        "Supporting Digital Screenshot or Proof of Transaction"
+      ],
+      "risk_flags": [
+        "General Public Grievance / Non-Immediate Hazard"
+      ],
+      "mode": "Demo AI Mode (Deterministic Academic Engine)",
+      "disclaimer": "AI-generated analysis for academic demonstration only."
+    },
+    "crime_prediction": {
+      "category": "Property Dispute",
+      "confidence": 61.73,
+      "top_categories": [
+        {
+          "category": "Property Dispute",
+          "probability": 61.73
+        },
+        {
+          "category": "Fraud",
+          "probability": 8.19
+        },
+        {
+          "category": "Robbery",
+          "probability": 5.69
+        },
+        {
+          "category": "Assault",
+          "probability": 5.49
+        }
+      ],
+      "model": "TF-IDF + Logistic Regression",
+      "metrics": {
+        "accuracy": 100.0,
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "macro_f1": 100.0
+      }
+    },
+    "legal_references": [
+      {
+        "id": "LAW007",
+        "title": "Criminal Trespass & Land Encroachment Disputes",
+        "section": "Sec 329 BNS 2023 (Sec 441 / 447 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable",
+        "punishment": "Imprisonment up to 3 months or fine up to ₹5,000",
+        "key_elements": [
+          "Entry into or upon property in possession of another",
+          "Intent to commit an offence or intimidate, insult, or annoy",
+          "Unlawfully remaining upon property after lawful entry"
+        ],
+        "procedural_guidelines": "Requisition municipal survey records and revenue title deeds; execute interim boundary protection report.",
+        "content": "Property disputes involving unauthorized entry or boundary encroachment with intent to commit an offence or intimidate the lawful occupant constitute criminal trespass under Section 329 BNS (IPC 447). Purely civil ownership claims require reference to competent civil courts.",
+        "similarity": 81.2,
+        "raw_score": 0.4687,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 329 BNS 2023 (Sec 441 / 447 IPC) semantically matches reported facts with 81.2% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW010",
+        "title": "Admissibility & Chain of Custody of Electronic Evidence",
+        "section": "Sec 63 Bharatiya Sakshya Adhiniyam 2023 (Sec 65B IEA)",
+        "act": "Bharatiya Sakshya Adhiniyam 2023 / Indian Evidence Act",
+        "cognizable": "Procedural Standard",
+        "bailable": "Statutory Mandate",
+        "punishment": "Mandatory for Judicial Admissibility",
+        "key_elements": [
+          "Verification of device source authenticity and operating integrity",
+          "Cryptographic SHA-256 hash calculation at acquisition point",
+          "Statutory certificate by person occupying responsible official position"
+        ],
+        "procedural_guidelines": "Generate digital hash immediately upon upload; preserve metadata and maintain unbroken forensic custody ledger.",
+        "content": "Digital evidence including call logs, chat transcripts, audio recordings, and transaction screenshots requires strict compliance with electronic evidence certification standards (Section 63 BSA / 65B Indian Evidence Act). Cryptographic hashes guarantee integrity from tampering.",
+        "similarity": 51.3,
+        "raw_score": 0.1838,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 63 Bharatiya Sakshya Adhiniyam 2023 (Sec 65B IEA) semantically matches reported facts with 51.3% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW002",
+        "title": "Theft of Movable Property & Pickpocketing",
+        "section": "Sec 303(2) BNS 2023 (Sec 379 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 3 years, or fine, or both",
+        "key_elements": [
+          "Dishonest intention to take movable property",
+          "Taking property out of possession of any person without consent",
+          "Moving of property in order to effect such taking"
+        ],
+        "procedural_guidelines": "Blacklist device IMEI in National CEIR portal immediately; retrieve transport junction CCTV logs within 24 hours.",
+        "content": "Theft consists of dishonestly taking any movable property out of the possession of any person without their consent. In cases involving stolen mobile phones, electronic devices, or transit pickpocketing, Section 303(2) of BNS (IPC 379) applies. The offence requires demonstrating dishonest removal from victim custody.",
+        "similarity": 50.6,
+        "raw_score": 0.1774,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 303(2) BNS 2023 (Sec 379 IPC) semantically matches reported facts with 50.6% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "similar_cases": [
+      {
+        "id": "CASE008",
+        "fir_number": "FIR-2022-L&O-0210",
+        "title": "Boundary Dispute Assault with Hurt",
+        "police_station": "East Rural Police Station",
+        "applicable_sections": "Sec 324 / 506 IPC / Sec 117 BNS",
+        "disposition": "Mutual Settlement Under Magistrate Supervision",
+        "modus_operandi": "Dispute between adjacent landholders escalated into heated argument; accused used wooden club causing blunt force contusion to complainant's shoulder.",
+        "description": "Person was assaulted during a neighbourhood property dispute. Injuries required medical attention.",
+        "similarity": 89.9,
+        "raw_score": 0.5519,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE003",
+        "fir_number": "FIR-2023-CYB-0294",
+        "title": "Fake E-Commerce Social Ad Scam",
+        "police_station": "Cyber Cell, Metro Division",
+        "applicable_sections": "Sec 66D IT Act, Sec 420 IPC",
+        "disposition": "Mule Accounts Frozen via Nodal Liaison",
+        "modus_operandi": "Created sponsored social media advertisements offering electronics at 80% discount. Collected advance payments through temporary QR codes before dismantling the domain.",
+        "description": "Customer paid for an online order through a website but never received the product. The website later became inaccessible.",
+        "similarity": 43.3,
+        "raw_score": 0.1078,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Contextual Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE007",
+        "fir_number": "FIR-2023-CYB-0419",
+        "title": "Bank Officer Impersonation & OTP Fraud",
+        "police_station": "State Cyber Command",
+        "applicable_sections": "Sec 66D IT Act, Sec 419/420 IPC",
+        "disposition": "Beneficiary Wallet Frozen at Payment Gateway",
+        "modus_operandi": "Caller spoofed bank helpline number, warned customer of imminent credit card block, and induced customer to read out the SMS verification code.",
+        "description": "Victim received a call from someone impersonating a bank official and was tricked into sharing OTP.",
+        "similarity": 42.5,
+        "raw_score": 0.0998,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Contextual Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "evidence": [],
+    "investigation_notes": []
+  },
+  {
+    "id": "AFR-2026-0009",
+    "citizen_id": 3,
+    "title": "Motorcycle Theft",
+    "description": "My motorcycle was stolen from the apartment parking area overnight and no security footage is available.",
+    "incident_date": "2026-08-22",
+    "location": "Chennai",
+    "incident_type": "Theft",
+    "people_involved": "Unknown thief",
+    "contact_info": "arun@gmail.com",
+    "status": "UNDER_REVIEW",
+    "created_at": "2026-08-23",
+    "ai_analysis": {
+      "summary": "The complainant reports an incident regarding 'Motorcycle Theft'. Key facts stated: My motorcycle was stolen from the apartment parking area overnight and no security footage is available.",
+      "incident_type": "Theft",
+      "people_mentioned": [
+        "Complainant and Suspected Party"
+      ],
+      "important_information": [
+        "My motorcycle was stolen from the apartment parking area overnight and no security footage is available"
+      ],
+      "evidence_mentioned": [
+        "Complainant Initial Written Statement"
+      ],
+      "missing_information": [
+        "Specific Bank Transaction ID / UTR Reference Number",
+        "Exact Financial Amount or Asset Valuation",
+        "Suspect Contact Mobile Number or Platform Handle",
+        "Supporting Digital Screenshot or Proof of Transaction"
+      ],
+      "risk_flags": [
+        "General Public Grievance / Non-Immediate Hazard"
+      ],
+      "mode": "Demo AI Mode (Deterministic Academic Engine)",
+      "disclaimer": "AI-generated analysis for academic demonstration only."
+    },
+    "crime_prediction": {
+      "category": "Theft",
+      "confidence": 66.02,
+      "top_categories": [
+        {
+          "category": "Theft",
+          "probability": 66.02
+        },
+        {
+          "category": "Robbery",
+          "probability": 9.72
+        },
+        {
+          "category": "Assault",
+          "probability": 5.52
+        },
+        {
+          "category": "Other",
+          "probability": 4.07
+        }
+      ],
+      "model": "TF-IDF + Logistic Regression",
+      "metrics": {
+        "accuracy": 100.0,
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "macro_f1": 100.0
+      }
+    },
+    "legal_references": [
+      {
+        "id": "LAW002",
+        "title": "Theft of Movable Property & Pickpocketing",
+        "section": "Sec 303(2) BNS 2023 (Sec 379 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 3 years, or fine, or both",
+        "key_elements": [
+          "Dishonest intention to take movable property",
+          "Taking property out of possession of any person without consent",
+          "Moving of property in order to effect such taking"
+        ],
+        "procedural_guidelines": "Blacklist device IMEI in National CEIR portal immediately; retrieve transport junction CCTV logs within 24 hours.",
+        "content": "Theft consists of dishonestly taking any movable property out of the possession of any person without their consent. In cases involving stolen mobile phones, electronic devices, or transit pickpocketing, Section 303(2) of BNS (IPC 379) applies. The offence requires demonstrating dishonest removal from victim custody.",
+        "similarity": 70.3,
+        "raw_score": 0.3647,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 303(2) BNS 2023 (Sec 379 IPC) semantically matches reported facts with 70.3% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW003",
+        "title": "Robbery & Extortion with Force or Weapon",
+        "section": "Sec 309 BNS 2023 (Sec 392 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Rigorous imprisonment up to 10 years (14 years if committed on highway)",
+        "key_elements": [
+          "Theft or extortion accomplished by causing or attempting to cause hurt",
+          "Inducing instant fear of death, grievous hurt, or wrongful restraint",
+          "Physical confrontation or weapon brandishment at the scene"
+        ],
+        "procedural_guidelines": "Deploy mobile forensics team to crime scene; preserve tire tracks or motorcycle surveillance footage along getaway trajectory.",
+        "content": "Robbery is aggravated theft or extortion committed when the offender causes or attempts to cause death, hurt, or wrongful restraint, or fear of instant hurt. Snatching incidents involving weapons, physical assault, or threats of violence qualify as robbery under Section 309 BNS (IPC 392).",
+        "similarity": 67.8,
+        "raw_score": 0.3405,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 309 BNS 2023 (Sec 392 IPC) semantically matches reported facts with 67.8% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW008",
+        "title": "House-Breaking by Night & Criminal Burglary",
+        "section": "Sec 331 BNS 2023 (Sec 457 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 14 years and fine",
+        "key_elements": [
+          "Forced or unauthorized ingress into human dwelling",
+          "Commission of entry by night (between sunset and sunrise)",
+          "Accompanied by intent to commit theft or punishable felony"
+        ],
+        "procedural_guidelines": "Secure latent finger/palm prints on door hardware; summon forensic canine unit and crime scene documentation squad.",
+        "content": "Burglary and house-breaking by night involve unlawful forced entry into a building or residential premises during nighttime hours with intent to commit theft. Carries severe statutory penalties under Section 331 BNS (IPC 457).",
+        "similarity": 67.6,
+        "raw_score": 0.3391,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 331 BNS 2023 (Sec 457 IPC) semantically matches reported facts with 67.6% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "similar_cases": [
+      {
+        "id": "CASE013",
+        "fir_number": "FIR-2023-TRN-0412",
+        "title": "Two-Wheeler Vehicle Theft from Residential Road",
+        "police_station": "South Suburban Police Station",
+        "applicable_sections": "Sec 379 IPC / Sec 303 BNS",
+        "disposition": "Vehicle Traced via Automatic Number Plate Recognition (ANPR)",
+        "modus_operandi": "Used master motorcycle key to unlock handle lock within 40 seconds; rode vehicle across district border to sell spare parts.",
+        "description": "Two-wheeler was stolen from outside the apartment parking area. No CCTV was available.",
+        "similarity": 95.4,
+        "raw_score": 0.6038,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE005",
+        "fir_number": "FIR-2023-CRM-0812",
+        "title": "Daylight Motorcycle Chain Snatching",
+        "police_station": "North Town Police Station",
+        "applicable_sections": "Sec 392 IPC (Robbery) / Sec 309 BNS",
+        "disposition": "Accused Apprehended; Jewellery Restored",
+        "modus_operandi": "Two motorcycle riders with masked faces targeted lone pedestrian on low-traffic service lane; pillion rider snatched gold chain with physical jerk causing victim to fall.",
+        "description": "Gold chain was snatched by two persons on a motorcycle near a busy market road.",
+        "similarity": 79.2,
+        "raw_score": 0.4494,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE002",
+        "fir_number": "FIR-2023-TRN-0388",
+        "title": "Mobile Phone Snatching from Transit Bus",
+        "police_station": "Railway & Transit Police Station",
+        "applicable_sections": "Sec 379 IPC / Sec 303(2) BNS",
+        "disposition": "Property Recovered via CEIR IMEI Tracking",
+        "modus_operandi": "Thieves operated in pairs near rear footboard of crowded municipal transport bus; distracted victim during boarding and slipped mobile phone from pocket.",
+        "description": "Mobile phone stolen from a public bus near the railway station while the victim was travelling.",
+        "similarity": 75.8,
+        "raw_score": 0.4172,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "evidence": [],
+    "investigation_notes": []
+  },
+  {
+    "id": "AFR-2026-0010",
+    "citizen_id": 1,
+    "title": "Impersonation Bank Call",
+    "description": "A caller claimed to be a bank officer and asked for an OTP to verify my account.",
+    "incident_date": "2026-08-15",
+    "location": "Coimbatore",
+    "incident_type": "Cybercrime",
+    "people_involved": "Unknown caller",
+    "contact_info": "ravi@gmail.com",
+    "status": "CLOSED",
+    "created_at": "2026-08-16",
+    "ai_analysis": {
+      "summary": "The complainant reports an incident regarding 'Impersonation Bank Call'. Key facts stated: A caller claimed to be a bank officer and asked for an OTP to verify my account.",
+      "incident_type": "Cybercrime",
+      "people_mentioned": [
+        "Person Impersonating Support / Bank Staff"
+      ],
+      "important_information": [
+        "A caller claimed to be a bank officer and asked for an OTP to verify my account"
+      ],
+      "evidence_mentioned": [
+        "SMS OTP Verification Logs"
+      ],
+      "missing_information": [
+        "Specific Bank Transaction ID / UTR Reference Number",
+        "Exact Financial Amount or Asset Valuation",
+        "Suspect Contact Mobile Number or Platform Handle",
+        "Supporting Digital Screenshot or Proof of Transaction"
+      ],
+      "risk_flags": [
+        "Urgent Financial Fraud / Fund Diversion Vector",
+        "Intimidation / Continuous Harassment Threat",
+        "Active Identity Theft / Digital Credential Compromise"
+      ],
+      "mode": "Demo AI Mode (Deterministic Academic Engine)",
+      "disclaimer": "AI-generated analysis for academic demonstration only."
+    },
+    "crime_prediction": {
+      "category": "Cybercrime",
+      "confidence": 65.74,
+      "top_categories": [
+        {
+          "category": "Cybercrime",
+          "probability": 65.74
+        },
+        {
+          "category": "Fraud",
+          "probability": 8.61
+        },
+        {
+          "category": "Other",
+          "probability": 4.69
+        },
+        {
+          "category": "Robbery",
+          "probability": 4.66
+        }
+      ],
+      "model": "TF-IDF + Logistic Regression",
+      "metrics": {
+        "accuracy": 100.0,
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "macro_f1": 100.0
+      }
+    },
+    "legal_references": [
+      {
+        "id": "LAW001",
+        "title": "Cyber Fraud & Cheating by Personation",
+        "section": "Sec 66D IT Act 2000 / Sec 318(4) BNS 2023 (IPC 420)",
+        "act": "Information Technology Act 2000 & Bharatiya Nyaya Sanhita",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 3 years and fine up to ₹1,00,000",
+        "key_elements": [
+          "Use of computer resource, mobile network, or messaging application",
+          "Deceptive impersonation of bank official, enterprise, or authority",
+          "Dishonest inducement to extract OTP, credentials, or funds"
+        ],
+        "procedural_guidelines": "Issue immediate preservation directive under Sec 91 CrPC/BNSS to payment intermediary; register freeze order with National Cyber Crime Reporting Portal (1930).",
+        "content": "Cyber fraud involves fraudulent activities carried out using electronic communication, such as emails, WhatsApp, phishing links, or rogue payment interfaces. Victims are deceived into transferring money, sharing OTPs, or revealing UPI credentials. Under Section 66D of the IT Act, cheating by personation using computer resource is punishable with imprisonment up to 3 years.",
+        "similarity": 96.0,
+        "raw_score": 0.6091,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 66D IT Act 2000 / Sec 318(4) BNS 2023 (IPC 420) semantically matches reported facts with 96.0% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW009",
+        "title": "Identity Theft & Unauthorized Digital Access",
+        "section": "Sec 66C IT Act 2000 & Sec 319 BNS 2023",
+        "act": "Information Technology Act 2000 & Bharatiya Nyaya Sanhita",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable / Non-Bailable based on loss",
+        "punishment": "Imprisonment up to 3 years and fine up to ₹1,00,000",
+        "key_elements": [
+          "Fraudulent use of electronic signature, password, or biometric unique ID",
+          "Unauthorized access to email, banking, or cloud repositories",
+          "Masquerading as authentic credential holder to inflict injury or gain"
+        ],
+        "procedural_guidelines": "Secure server audit logs, hash values, and Multi-Factor Authentication session tokens.",
+        "content": "Identity theft occurs when an offender fraudulently or dishonestly makes use of the electronic signature, password, or other unique identification feature of any other person. Section 66C of the IT Act criminalizes identity theft.",
+        "similarity": 86.9,
+        "raw_score": 0.5227,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 66C IT Act 2000 & Sec 319 BNS 2023 semantically matches reported facts with 86.9% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW006",
+        "title": "Cyber Stalking, Voyeurism & Electronic Harassment",
+        "section": "Sec 78 BNS 2023 (Sec 354D IPC) & Sec 67 IT Act",
+        "act": "Bharatiya Nyaya Sanhita 2023 & Information Technology Act",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable (first offence) / Non-Bailable (subsequent)",
+        "punishment": "Imprisonment up to 3 years (up to 5 years on repeat) and fine",
+        "key_elements": [
+          "Repeated monitoring of victim internet activity, email, or social profiles",
+          "Unwanted persistent contact despite clear disinterest",
+          "Creation of defamatory impersonation handles or transmission of obscene content"
+        ],
+        "procedural_guidelines": "Issue notice under Sec 79(3)(b) IT Act to social media intermediary to freeze profile and disclose IP signup headers.",
+        "content": "Stalking includes following, contacting, or attempting to contact a person repeatedly despite disinterest, as well as monitoring a person's internet use, social media accounts, or phone messaging. Transmission of obscene digital material additionally invokes Section 67 of the IT Act.",
+        "similarity": 79.2,
+        "raw_score": 0.4493,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 78 BNS 2023 (Sec 354D IPC) & Sec 67 IT Act semantically matches reported facts with 79.2% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "similar_cases": [
+      {
+        "id": "CASE007",
+        "fir_number": "FIR-2023-CYB-0419",
+        "title": "Bank Officer Impersonation & OTP Fraud",
+        "police_station": "State Cyber Command",
+        "applicable_sections": "Sec 66D IT Act, Sec 419/420 IPC",
+        "disposition": "Beneficiary Wallet Frozen at Payment Gateway",
+        "modus_operandi": "Caller spoofed bank helpline number, warned customer of imminent credit card block, and induced customer to read out the SMS verification code.",
+        "description": "Victim received a call from someone impersonating a bank official and was tricked into sharing OTP.",
+        "similarity": 98.5,
+        "raw_score": 0.8253,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE015",
+        "fir_number": "FIR-2023-CYB-0550",
+        "title": "Identity Impersonation on Social Media",
+        "police_station": "Cyber Crime Cell, District HQ",
+        "applicable_sections": "Sec 66C/66D IT Act, Sec 419 IPC",
+        "disposition": "Impersonator Account Deleted; Restraining Order Issued",
+        "modus_operandi": "Downloaded victim's profile pictures to set up clone Facebook account; solicited emergency loans from victim's contact list citing medical distress.",
+        "description": "Suspect cloned citizen profile to request emergency money from contacts.",
+        "similarity": 83.7,
+        "raw_score": 0.4922,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE001",
+        "fir_number": "FIR-2023-CYB-0142",
+        "title": "Online UPI Phishing & Fake Payment Request",
+        "police_station": "Cyber Crime Police Station, Central Range",
+        "applicable_sections": "Sec 66D IT Act, Sec 420 IPC",
+        "disposition": "Chargesheet Filed (Accused Traced via Bank Node)",
+        "modus_operandi": "Victim received an urgent WhatsApp/SMS message with an APK or web link masquerading as an electricity bill update. Clicking prompted UPI PIN entry, routing funds to mule account.",
+        "description": "Victim received a fake payment request through a messaging app and transferred money to an unknown account.",
+        "similarity": 80.1,
+        "raw_score": 0.4578,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "evidence": [],
+    "investigation_notes": []
+  },
+  {
+    "id": "AFR-2026-0011",
+    "citizen_id": 1,
+    "title": "Gold theft",
+    "description": "some unknown guys theft my gold",
+    "incident_date": "2026-10-07",
+    "location": "Thiruvarur",
+    "incident_type": "Theft",
+    "people_involved": "Unknown",
+    "contact_info": "ravi@gmail.com",
+    "status": "SUBMITTED",
+    "created_at": "2026-10-08",
+    "ai_analysis": {
+      "summary": "The complainant reports an incident regarding 'Gold theft'. Key facts stated: some unknown guys theft my gold",
+      "incident_type": "Theft",
+      "people_mentioned": [
+        "Unidentified Suspect / Anonymous Sender"
+      ],
+      "important_information": [
+        "some unknown guys theft my gold"
+      ],
+      "evidence_mentioned": [
+        "Complainant Initial Written Statement"
+      ],
+      "missing_information": [
+        "Specific Bank Transaction ID / UTR Reference Number",
+        "Exact Financial Amount or Asset Valuation",
+        "Suspect Contact Mobile Number or Platform Handle",
+        "Supporting Digital Screenshot or Proof of Transaction"
+      ],
+      "risk_flags": [
+        "General Public Grievance / Non-Immediate Hazard"
+      ],
+      "mode": "Demo AI Mode (Deterministic Academic Engine)",
+      "disclaimer": "AI-generated analysis for academic demonstration only."
+    },
+    "crime_prediction": {
+      "category": "Robbery",
+      "confidence": 28.12,
+      "top_categories": [
+        {
+          "category": "Robbery",
+          "probability": 28.12
+        },
+        {
+          "category": "Harassment",
+          "probability": 13.49
+        },
+        {
+          "category": "Fraud",
+          "probability": 12.56
+        },
+        {
+          "category": "Theft",
+          "probability": 11.93
+        }
+      ],
+      "model": "TF-IDF + Logistic Regression",
+      "metrics": {
+        "accuracy": 100.0,
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "macro_f1": 100.0
+      }
+    },
+    "legal_references": [
+      {
+        "id": "LAW003",
+        "title": "Robbery & Extortion with Force or Weapon",
+        "section": "Sec 309 BNS 2023 (Sec 392 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Rigorous imprisonment up to 10 years (14 years if committed on highway)",
+        "key_elements": [
+          "Theft or extortion accomplished by causing or attempting to cause hurt",
+          "Inducing instant fear of death, grievous hurt, or wrongful restraint",
+          "Physical confrontation or weapon brandishment at the scene"
+        ],
+        "procedural_guidelines": "Deploy mobile forensics team to crime scene; preserve tire tracks or motorcycle surveillance footage along getaway trajectory.",
+        "content": "Robbery is aggravated theft or extortion committed when the offender causes or attempts to cause death, hurt, or wrongful restraint, or fear of instant hurt. Snatching incidents involving weapons, physical assault, or threats of violence qualify as robbery under Section 309 BNS (IPC 392).",
+        "similarity": 77.3,
+        "raw_score": 0.4316,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 309 BNS 2023 (Sec 392 IPC) semantically matches reported facts with 77.3% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW002",
+        "title": "Theft of Movable Property & Pickpocketing",
+        "section": "Sec 303(2) BNS 2023 (Sec 379 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 3 years, or fine, or both",
+        "key_elements": [
+          "Dishonest intention to take movable property",
+          "Taking property out of possession of any person without consent",
+          "Moving of property in order to effect such taking"
+        ],
+        "procedural_guidelines": "Blacklist device IMEI in National CEIR portal immediately; retrieve transport junction CCTV logs within 24 hours.",
+        "content": "Theft consists of dishonestly taking any movable property out of the possession of any person without their consent. In cases involving stolen mobile phones, electronic devices, or transit pickpocketing, Section 303(2) of BNS (IPC 379) applies. The offence requires demonstrating dishonest removal from victim custody.",
+        "similarity": 76.1,
+        "raw_score": 0.4199,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 303(2) BNS 2023 (Sec 379 IPC) semantically matches reported facts with 76.1% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW009",
+        "title": "Identity Theft & Unauthorized Digital Access",
+        "section": "Sec 66C IT Act 2000 & Sec 319 BNS 2023",
+        "act": "Information Technology Act 2000 & Bharatiya Nyaya Sanhita",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable / Non-Bailable based on loss",
+        "punishment": "Imprisonment up to 3 years and fine up to ₹1,00,000",
+        "key_elements": [
+          "Fraudulent use of electronic signature, password, or biometric unique ID",
+          "Unauthorized access to email, banking, or cloud repositories",
+          "Masquerading as authentic credential holder to inflict injury or gain"
+        ],
+        "procedural_guidelines": "Secure server audit logs, hash values, and Multi-Factor Authentication session tokens.",
+        "content": "Identity theft occurs when an offender fraudulently or dishonestly makes use of the electronic signature, password, or other unique identification feature of any other person. Section 66C of the IT Act criminalizes identity theft.",
+        "similarity": 71.5,
+        "raw_score": 0.3759,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 66C IT Act 2000 & Sec 319 BNS 2023 semantically matches reported facts with 71.5% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "similar_cases": [
+      {
+        "id": "CASE005",
+        "fir_number": "FIR-2023-CRM-0812",
+        "title": "Daylight Motorcycle Chain Snatching",
+        "police_station": "North Town Police Station",
+        "applicable_sections": "Sec 392 IPC (Robbery) / Sec 309 BNS",
+        "disposition": "Accused Apprehended; Jewellery Restored",
+        "modus_operandi": "Two motorcycle riders with masked faces targeted lone pedestrian on low-traffic service lane; pillion rider snatched gold chain with physical jerk causing victim to fall.",
+        "description": "Gold chain was snatched by two persons on a motorcycle near a busy market road.",
+        "similarity": 85.5,
+        "raw_score": 0.5092,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE011",
+        "fir_number": "FIR-2023-TRN-0518",
+        "title": "Marketplace Pickpocketing & Wallet Theft",
+        "police_station": "Market Yard Police Station",
+        "applicable_sections": "Sec 379 IPC / Sec 303 BNS",
+        "disposition": "CCTV Evidence Corroborated; Habitual Offender Convicted",
+        "modus_operandi": "Slipped wallet from victim's trouser pocket amidst Sunday morning market crowd; immediately discarded credit cards in public bin and retained cash.",
+        "description": "Wallet and phone were pickpocketed by a thief in a crowded market area.",
+        "similarity": 80.6,
+        "raw_score": 0.4632,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE006",
+        "fir_number": "FIR-2023-CRM-0675",
+        "title": "Residential House Burglary by Forced Entry",
+        "police_station": "West Sub-Division Station",
+        "applicable_sections": "Sec 457 / 380 IPC / Sec 331 BNS",
+        "disposition": "Latent Fingerprints Matched in Criminal Database",
+        "modus_operandi": "Targeted locked residence whose residents were away on vacation; severed rear window grill using hydraulic iron shears and emptied main bedroom locker.",
+        "description": "House was burgled while the family was away. Jewellery and electronics were stolen through forced entry.",
+        "similarity": 74.5,
+        "raw_score": 0.4048,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "evidence": [],
+    "investigation_notes": []
+  },
+  {
+    "id": "AFR-2026-0012",
+    "citizen_id": 1,
+    "citizen_name": "Ravi Kumar",
+    "title": "Phishing Link Scam on WhatsApp",
+    "description": "Received suspicious payment link on WhatsApp and entered UPI pin believing it was electricity bill",
+    "incident_date": "2026-10-08",
+    "location": "Coimbatore Main",
+    "incident_type": "Cybercrime",
+    "people_involved": "Anonymous phone caller",
+    "contact_info": "ravi@gmail.com",
+    "status": "SUBMITTED",
+    "created_at": "2026-10-08",
+    "ai_analysis": {
+      "summary": "The complainant reports an incident regarding 'Phishing Link Scam on WhatsApp'. Key facts stated: Received suspicious payment link on WhatsApp and entered UPI pin believing it was electricity bill",
+      "incident_type": "Cybercrime",
+      "people_mentioned": [
+        "Complainant and Suspected Party"
+      ],
+      "important_information": [
+        "Received suspicious payment link on WhatsApp and entered UPI pin believing it was electricity bill"
+      ],
+      "evidence_mentioned": [
+        "Malicious Web / Payment Hyperlink URL"
+      ],
+      "missing_information": [
+        "Specific Bank Transaction ID / UTR Reference Number",
+        "Exact Financial Amount or Asset Valuation",
+        "Suspect Contact Mobile Number or Platform Handle",
+        "Supporting Digital Screenshot or Proof of Transaction"
+      ],
+      "risk_flags": [
+        "Urgent Financial Fraud / Fund Diversion Vector"
+      ],
+      "mode": "Demo AI Mode (Deterministic Academic Engine)",
+      "disclaimer": "AI-generated analysis for academic demonstration only."
+    },
+    "crime_prediction": {
+      "category": "Cybercrime",
+      "confidence": 72.03,
+      "top_categories": [
+        {
+          "category": "Cybercrime",
+          "probability": 72.03
+        },
+        {
+          "category": "Robbery",
+          "probability": 5.1
+        },
+        {
+          "category": "Harassment",
+          "probability": 4.55
+        },
+        {
+          "category": "Fraud",
+          "probability": 4.4
+        }
+      ],
+      "model": "TF-IDF + Logistic Regression",
+      "metrics": {
+        "accuracy": 100.0,
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "macro_f1": 100.0
+      }
+    },
+    "legal_references": [
+      {
+        "id": "LAW001",
+        "title": "Cyber Fraud & Cheating by Personation",
+        "section": "Sec 66D IT Act 2000 / Sec 318(4) BNS 2023 (IPC 420)",
+        "act": "Information Technology Act 2000 & Bharatiya Nyaya Sanhita",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 3 years and fine up to ₹1,00,000",
+        "key_elements": [
+          "Use of computer resource, mobile network, or messaging application",
+          "Deceptive impersonation of bank official, enterprise, or authority",
+          "Dishonest inducement to extract OTP, credentials, or funds"
+        ],
+        "procedural_guidelines": "Issue immediate preservation directive under Sec 91 CrPC/BNSS to payment intermediary; register freeze order with National Cyber Crime Reporting Portal (1930).",
+        "content": "Cyber fraud involves fraudulent activities carried out using electronic communication, such as emails, WhatsApp, phishing links, or rogue payment interfaces. Victims are deceived into transferring money, sharing OTPs, or revealing UPI credentials. Under Section 66D of the IT Act, cheating by personation using computer resource is punishable with imprisonment up to 3 years.",
+        "similarity": 84.4,
+        "raw_score": 0.4992,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 66D IT Act 2000 / Sec 318(4) BNS 2023 (IPC 420) semantically matches reported facts with 84.4% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW009",
+        "title": "Identity Theft & Unauthorized Digital Access",
+        "section": "Sec 66C IT Act 2000 & Sec 319 BNS 2023",
+        "act": "Information Technology Act 2000 & Bharatiya Nyaya Sanhita",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable / Non-Bailable based on loss",
+        "punishment": "Imprisonment up to 3 years and fine up to ₹1,00,000",
+        "key_elements": [
+          "Fraudulent use of electronic signature, password, or biometric unique ID",
+          "Unauthorized access to email, banking, or cloud repositories",
+          "Masquerading as authentic credential holder to inflict injury or gain"
+        ],
+        "procedural_guidelines": "Secure server audit logs, hash values, and Multi-Factor Authentication session tokens.",
+        "content": "Identity theft occurs when an offender fraudulently or dishonestly makes use of the electronic signature, password, or other unique identification feature of any other person. Section 66C of the IT Act criminalizes identity theft.",
+        "similarity": 72.7,
+        "raw_score": 0.388,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 66C IT Act 2000 & Sec 319 BNS 2023 semantically matches reported facts with 72.7% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW004",
+        "title": "Criminal Breach of Trust & Fraudulent Deception",
+        "section": "Sec 316 / 318 BNS 2023 (Sec 406 / 420 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 7 years and fine",
+        "key_elements": [
+          "Entrustment of property or financial dominion",
+          "Dishonest misappropriation or conversion for personal enrichment",
+          "Intentional fraud, false assurances, or forged commercial documents"
+        ],
+        "procedural_guidelines": "Procure certified banking audit trails, agreements, and audited accounts under Sec 65B/63 Indian Evidence Act.",
+        "content": "Fraud and criminal breach of trust occur when an offender is entrusted with money, assets, or property and dishonestly converts or misappropriates it for personal gain, or fraudulently induces the victim into executing a contract based on false pretexts.",
+        "similarity": 71.0,
+        "raw_score": 0.3718,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 316 / 318 BNS 2023 (Sec 406 / 420 IPC) semantically matches reported facts with 71.0% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "similar_cases": [
+      {
+        "id": "CASE001",
+        "fir_number": "FIR-2023-CYB-0142",
+        "title": "Online UPI Phishing & Fake Payment Request",
+        "police_station": "Cyber Crime Police Station, Central Range",
+        "applicable_sections": "Sec 66D IT Act, Sec 420 IPC",
+        "disposition": "Chargesheet Filed (Accused Traced via Bank Node)",
+        "modus_operandi": "Victim received an urgent WhatsApp/SMS message with an APK or web link masquerading as an electricity bill update. Clicking prompted UPI PIN entry, routing funds to mule account.",
+        "description": "Victim received a fake payment request through a messaging app and transferred money to an unknown account.",
+        "similarity": 98.5,
+        "raw_score": 0.7236,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE003",
+        "fir_number": "FIR-2023-CYB-0294",
+        "title": "Fake E-Commerce Social Ad Scam",
+        "police_station": "Cyber Cell, Metro Division",
+        "applicable_sections": "Sec 66D IT Act, Sec 420 IPC",
+        "disposition": "Mule Accounts Frozen via Nodal Liaison",
+        "modus_operandi": "Created sponsored social media advertisements offering electronics at 80% discount. Collected advance payments through temporary QR codes before dismantling the domain.",
+        "description": "Customer paid for an online order through a website but never received the product. The website later became inaccessible.",
+        "similarity": 78.2,
+        "raw_score": 0.4402,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE007",
+        "fir_number": "FIR-2023-CYB-0419",
+        "title": "Bank Officer Impersonation & OTP Fraud",
+        "police_station": "State Cyber Command",
+        "applicable_sections": "Sec 66D IT Act, Sec 419/420 IPC",
+        "disposition": "Beneficiary Wallet Frozen at Payment Gateway",
+        "modus_operandi": "Caller spoofed bank helpline number, warned customer of imminent credit card block, and induced customer to read out the SMS verification code.",
+        "description": "Victim received a call from someone impersonating a bank official and was tricked into sharing OTP.",
+        "similarity": 76.4,
+        "raw_score": 0.4224,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "evidence": [],
+    "investigation_notes": []
+  },
+  {
+    "id": "AFR-2026-0013",
+    "citizen_id": 1,
+    "citizen_name": "Ravi Kumar",
+    "title": "Phishing Link Scam on WhatsApp",
+    "description": "Received suspicious payment link on WhatsApp and entered UPI pin believing it was electricity bill",
+    "incident_date": "2026-10-08",
+    "location": "Coimbatore Main",
+    "incident_type": "Cybercrime",
+    "people_involved": "Anonymous phone caller",
+    "contact_info": "ravi@gmail.com",
+    "status": "SUBMITTED",
+    "created_at": "2026-10-08",
+    "ai_analysis": {
+      "summary": "The complainant reports an incident regarding 'Phishing Link Scam on WhatsApp'. Key facts stated: Received suspicious payment link on WhatsApp and entered UPI pin believing it was electricity bill",
+      "incident_type": "Cybercrime",
+      "people_mentioned": [
+        "Complainant and Suspected Party"
+      ],
+      "important_information": [
+        "Received suspicious payment link on WhatsApp and entered UPI pin believing it was electricity bill"
+      ],
+      "evidence_mentioned": [
+        "Malicious Web / Payment Hyperlink URL"
+      ],
+      "missing_information": [
+        "Specific Bank Transaction ID / UTR Reference Number",
+        "Exact Financial Amount or Asset Valuation",
+        "Suspect Contact Mobile Number or Platform Handle",
+        "Supporting Digital Screenshot or Proof of Transaction"
+      ],
+      "risk_flags": [
+        "Urgent Financial Fraud / Fund Diversion Vector"
+      ],
+      "mode": "Demo AI Mode (Deterministic Academic Engine)",
+      "disclaimer": "AI-generated analysis for academic demonstration only."
+    },
+    "crime_prediction": {
+      "category": "Cybercrime",
+      "confidence": 72.03,
+      "top_categories": [
+        {
+          "category": "Cybercrime",
+          "probability": 72.03
+        },
+        {
+          "category": "Robbery",
+          "probability": 5.1
+        },
+        {
+          "category": "Harassment",
+          "probability": 4.55
+        },
+        {
+          "category": "Fraud",
+          "probability": 4.4
+        }
+      ],
+      "model": "TF-IDF + Logistic Regression",
+      "metrics": {
+        "accuracy": 100.0,
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "macro_f1": 100.0
+      }
+    },
+    "legal_references": [
+      {
+        "id": "LAW001",
+        "title": "Cyber Fraud & Cheating by Personation",
+        "section": "Sec 66D IT Act 2000 / Sec 318(4) BNS 2023 (IPC 420)",
+        "act": "Information Technology Act 2000 & Bharatiya Nyaya Sanhita",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 3 years and fine up to ₹1,00,000",
+        "key_elements": [
+          "Use of computer resource, mobile network, or messaging application",
+          "Deceptive impersonation of bank official, enterprise, or authority",
+          "Dishonest inducement to extract OTP, credentials, or funds"
+        ],
+        "procedural_guidelines": "Issue immediate preservation directive under Sec 91 CrPC/BNSS to payment intermediary; register freeze order with National Cyber Crime Reporting Portal (1930).",
+        "content": "Cyber fraud involves fraudulent activities carried out using electronic communication, such as emails, WhatsApp, phishing links, or rogue payment interfaces. Victims are deceived into transferring money, sharing OTPs, or revealing UPI credentials. Under Section 66D of the IT Act, cheating by personation using computer resource is punishable with imprisonment up to 3 years.",
+        "similarity": 84.4,
+        "raw_score": 0.4992,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 66D IT Act 2000 / Sec 318(4) BNS 2023 (IPC 420) semantically matches reported facts with 84.4% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW009",
+        "title": "Identity Theft & Unauthorized Digital Access",
+        "section": "Sec 66C IT Act 2000 & Sec 319 BNS 2023",
+        "act": "Information Technology Act 2000 & Bharatiya Nyaya Sanhita",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable / Non-Bailable based on loss",
+        "punishment": "Imprisonment up to 3 years and fine up to ₹1,00,000",
+        "key_elements": [
+          "Fraudulent use of electronic signature, password, or biometric unique ID",
+          "Unauthorized access to email, banking, or cloud repositories",
+          "Masquerading as authentic credential holder to inflict injury or gain"
+        ],
+        "procedural_guidelines": "Secure server audit logs, hash values, and Multi-Factor Authentication session tokens.",
+        "content": "Identity theft occurs when an offender fraudulently or dishonestly makes use of the electronic signature, password, or other unique identification feature of any other person. Section 66C of the IT Act criminalizes identity theft.",
+        "similarity": 72.7,
+        "raw_score": 0.388,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 66C IT Act 2000 & Sec 319 BNS 2023 semantically matches reported facts with 72.7% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW004",
+        "title": "Criminal Breach of Trust & Fraudulent Deception",
+        "section": "Sec 316 / 318 BNS 2023 (Sec 406 / 420 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 7 years and fine",
+        "key_elements": [
+          "Entrustment of property or financial dominion",
+          "Dishonest misappropriation or conversion for personal enrichment",
+          "Intentional fraud, false assurances, or forged commercial documents"
+        ],
+        "procedural_guidelines": "Procure certified banking audit trails, agreements, and audited accounts under Sec 65B/63 Indian Evidence Act.",
+        "content": "Fraud and criminal breach of trust occur when an offender is entrusted with money, assets, or property and dishonestly converts or misappropriates it for personal gain, or fraudulently induces the victim into executing a contract based on false pretexts.",
+        "similarity": 71.0,
+        "raw_score": 0.3718,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 316 / 318 BNS 2023 (Sec 406 / 420 IPC) semantically matches reported facts with 71.0% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "similar_cases": [
+      {
+        "id": "CASE001",
+        "fir_number": "FIR-2023-CYB-0142",
+        "title": "Online UPI Phishing & Fake Payment Request",
+        "police_station": "Cyber Crime Police Station, Central Range",
+        "applicable_sections": "Sec 66D IT Act, Sec 420 IPC",
+        "disposition": "Chargesheet Filed (Accused Traced via Bank Node)",
+        "modus_operandi": "Victim received an urgent WhatsApp/SMS message with an APK or web link masquerading as an electricity bill update. Clicking prompted UPI PIN entry, routing funds to mule account.",
+        "description": "Victim received a fake payment request through a messaging app and transferred money to an unknown account.",
+        "similarity": 98.5,
+        "raw_score": 0.7236,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE003",
+        "fir_number": "FIR-2023-CYB-0294",
+        "title": "Fake E-Commerce Social Ad Scam",
+        "police_station": "Cyber Cell, Metro Division",
+        "applicable_sections": "Sec 66D IT Act, Sec 420 IPC",
+        "disposition": "Mule Accounts Frozen via Nodal Liaison",
+        "modus_operandi": "Created sponsored social media advertisements offering electronics at 80% discount. Collected advance payments through temporary QR codes before dismantling the domain.",
+        "description": "Customer paid for an online order through a website but never received the product. The website later became inaccessible.",
+        "similarity": 78.2,
+        "raw_score": 0.4402,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE007",
+        "fir_number": "FIR-2023-CYB-0419",
+        "title": "Bank Officer Impersonation & OTP Fraud",
+        "police_station": "State Cyber Command",
+        "applicable_sections": "Sec 66D IT Act, Sec 419/420 IPC",
+        "disposition": "Beneficiary Wallet Frozen at Payment Gateway",
+        "modus_operandi": "Caller spoofed bank helpline number, warned customer of imminent credit card block, and induced customer to read out the SMS verification code.",
+        "description": "Victim received a call from someone impersonating a bank official and was tricked into sharing OTP.",
+        "similarity": 76.4,
+        "raw_score": 0.4224,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "evidence": [],
+    "investigation_notes": []
+  },
+  {
+    "id": "AFR-2026-0014",
+    "citizen_id": 1,
+    "citizen_name": "Ravi Kumar",
+    "title": "Phishing Link Scam on WhatsApp",
+    "description": "Received suspicious payment link on WhatsApp and entered UPI pin believing it was electricity bill",
+    "incident_date": "2026-10-08",
+    "location": "Coimbatore Main",
+    "incident_type": "Cybercrime",
+    "people_involved": "Anonymous phone caller",
+    "contact_info": "ravi@gmail.com",
+    "status": "SUBMITTED",
+    "created_at": "2026-10-08",
+    "ai_analysis": {
+      "summary": "The complainant reports an incident regarding 'Phishing Link Scam on WhatsApp'. Key facts stated: Received suspicious payment link on WhatsApp and entered UPI pin believing it was electricity bill",
+      "incident_type": "Cybercrime",
+      "people_mentioned": [
+        "Complainant and Suspected Party"
+      ],
+      "important_information": [
+        "Received suspicious payment link on WhatsApp and entered UPI pin believing it was electricity bill"
+      ],
+      "evidence_mentioned": [
+        "Malicious Web / Payment Hyperlink URL"
+      ],
+      "missing_information": [
+        "Specific Bank Transaction ID / UTR Reference Number",
+        "Exact Financial Amount or Asset Valuation",
+        "Suspect Contact Mobile Number or Platform Handle",
+        "Supporting Digital Screenshot or Proof of Transaction"
+      ],
+      "risk_flags": [
+        "Urgent Financial Fraud / Fund Diversion Vector"
+      ],
+      "mode": "Demo AI Mode (Deterministic Academic Engine)",
+      "disclaimer": "AI-generated analysis for academic demonstration only."
+    },
+    "crime_prediction": {
+      "category": "Cybercrime",
+      "confidence": 72.03,
+      "top_categories": [
+        {
+          "category": "Cybercrime",
+          "probability": 72.03
+        },
+        {
+          "category": "Robbery",
+          "probability": 5.1
+        },
+        {
+          "category": "Harassment",
+          "probability": 4.55
+        },
+        {
+          "category": "Fraud",
+          "probability": 4.4
+        }
+      ],
+      "model": "TF-IDF + Logistic Regression",
+      "metrics": {
+        "accuracy": 100.0,
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "macro_f1": 100.0
+      }
+    },
+    "legal_references": [
+      {
+        "id": "LAW001",
+        "title": "Cyber Fraud & Cheating by Personation",
+        "section": "Sec 66D IT Act 2000 / Sec 318(4) BNS 2023 (IPC 420)",
+        "act": "Information Technology Act 2000 & Bharatiya Nyaya Sanhita",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 3 years and fine up to ₹1,00,000",
+        "key_elements": [
+          "Use of computer resource, mobile network, or messaging application",
+          "Deceptive impersonation of bank official, enterprise, or authority",
+          "Dishonest inducement to extract OTP, credentials, or funds"
+        ],
+        "procedural_guidelines": "Issue immediate preservation directive under Sec 91 CrPC/BNSS to payment intermediary; register freeze order with National Cyber Crime Reporting Portal (1930).",
+        "content": "Cyber fraud involves fraudulent activities carried out using electronic communication, such as emails, WhatsApp, phishing links, or rogue payment interfaces. Victims are deceived into transferring money, sharing OTPs, or revealing UPI credentials. Under Section 66D of the IT Act, cheating by personation using computer resource is punishable with imprisonment up to 3 years.",
+        "similarity": 84.4,
+        "raw_score": 0.4992,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 66D IT Act 2000 / Sec 318(4) BNS 2023 (IPC 420) semantically matches reported facts with 84.4% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW009",
+        "title": "Identity Theft & Unauthorized Digital Access",
+        "section": "Sec 66C IT Act 2000 & Sec 319 BNS 2023",
+        "act": "Information Technology Act 2000 & Bharatiya Nyaya Sanhita",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable / Non-Bailable based on loss",
+        "punishment": "Imprisonment up to 3 years and fine up to ₹1,00,000",
+        "key_elements": [
+          "Fraudulent use of electronic signature, password, or biometric unique ID",
+          "Unauthorized access to email, banking, or cloud repositories",
+          "Masquerading as authentic credential holder to inflict injury or gain"
+        ],
+        "procedural_guidelines": "Secure server audit logs, hash values, and Multi-Factor Authentication session tokens.",
+        "content": "Identity theft occurs when an offender fraudulently or dishonestly makes use of the electronic signature, password, or other unique identification feature of any other person. Section 66C of the IT Act criminalizes identity theft.",
+        "similarity": 72.7,
+        "raw_score": 0.388,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 66C IT Act 2000 & Sec 319 BNS 2023 semantically matches reported facts with 72.7% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW004",
+        "title": "Criminal Breach of Trust & Fraudulent Deception",
+        "section": "Sec 316 / 318 BNS 2023 (Sec 406 / 420 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 7 years and fine",
+        "key_elements": [
+          "Entrustment of property or financial dominion",
+          "Dishonest misappropriation or conversion for personal enrichment",
+          "Intentional fraud, false assurances, or forged commercial documents"
+        ],
+        "procedural_guidelines": "Procure certified banking audit trails, agreements, and audited accounts under Sec 65B/63 Indian Evidence Act.",
+        "content": "Fraud and criminal breach of trust occur when an offender is entrusted with money, assets, or property and dishonestly converts or misappropriates it for personal gain, or fraudulently induces the victim into executing a contract based on false pretexts.",
+        "similarity": 71.0,
+        "raw_score": 0.3718,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 316 / 318 BNS 2023 (Sec 406 / 420 IPC) semantically matches reported facts with 71.0% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "similar_cases": [
+      {
+        "id": "CASE001",
+        "fir_number": "FIR-2023-CYB-0142",
+        "title": "Online UPI Phishing & Fake Payment Request",
+        "police_station": "Cyber Crime Police Station, Central Range",
+        "applicable_sections": "Sec 66D IT Act, Sec 420 IPC",
+        "disposition": "Chargesheet Filed (Accused Traced via Bank Node)",
+        "modus_operandi": "Victim received an urgent WhatsApp/SMS message with an APK or web link masquerading as an electricity bill update. Clicking prompted UPI PIN entry, routing funds to mule account.",
+        "description": "Victim received a fake payment request through a messaging app and transferred money to an unknown account.",
+        "similarity": 98.5,
+        "raw_score": 0.7236,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE003",
+        "fir_number": "FIR-2023-CYB-0294",
+        "title": "Fake E-Commerce Social Ad Scam",
+        "police_station": "Cyber Cell, Metro Division",
+        "applicable_sections": "Sec 66D IT Act, Sec 420 IPC",
+        "disposition": "Mule Accounts Frozen via Nodal Liaison",
+        "modus_operandi": "Created sponsored social media advertisements offering electronics at 80% discount. Collected advance payments through temporary QR codes before dismantling the domain.",
+        "description": "Customer paid for an online order through a website but never received the product. The website later became inaccessible.",
+        "similarity": 78.2,
+        "raw_score": 0.4402,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE007",
+        "fir_number": "FIR-2023-CYB-0419",
+        "title": "Bank Officer Impersonation & OTP Fraud",
+        "police_station": "State Cyber Command",
+        "applicable_sections": "Sec 66D IT Act, Sec 419/420 IPC",
+        "disposition": "Beneficiary Wallet Frozen at Payment Gateway",
+        "modus_operandi": "Caller spoofed bank helpline number, warned customer of imminent credit card block, and induced customer to read out the SMS verification code.",
+        "description": "Victim received a call from someone impersonating a bank official and was tricked into sharing OTP.",
+        "similarity": 76.4,
+        "raw_score": 0.4224,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "evidence": [],
+    "investigation_notes": []
+  },
+  {
+    "id": "AFR-2026-0015",
+    "citizen_id": 1,
+    "citizen_name": "Ravi Kumar",
+    "title": "phone theft",
+    "description": "asdfasdfasdfad",
+    "incident_date": "2026-10-08",
+    "location": "coimbatore",
+    "incident_type": "Theft",
+    "people_involved": "Unknown",
+    "contact_info": "ravi@gmail.com",
+    "status": "SUBMITTED",
+    "created_at": "2026-10-08",
+    "ai_analysis": {
+      "summary": "The complainant reports an incident regarding 'phone theft'. Key facts stated: asdfasdfasdfad",
+      "incident_type": "Theft",
+      "people_mentioned": [
+        "Complainant and Suspected Party"
+      ],
+      "important_information": [
+        "asdfasdfasdfad"
+      ],
+      "evidence_mentioned": [
+        "Complainant Initial Written Statement"
+      ],
+      "missing_information": [
+        "Specific Bank Transaction ID / UTR Reference Number",
+        "Exact Financial Amount or Asset Valuation",
+        "Suspect Contact Mobile Number or Platform Handle",
+        "Supporting Digital Screenshot or Proof of Transaction"
+      ],
+      "risk_flags": [
+        "General Public Grievance / Non-Immediate Hazard"
+      ],
+      "mode": "Demo AI Mode (Deterministic Academic Engine)",
+      "disclaimer": "AI-generated analysis for academic demonstration only."
+    },
+    "crime_prediction": {
+      "category": "Robbery",
+      "confidence": 21.84,
+      "top_categories": [
+        {
+          "category": "Robbery",
+          "probability": 21.84
+        },
+        {
+          "category": "Harassment",
+          "probability": 13.09
+        },
+        {
+          "category": "Fraud",
+          "probability": 12.05
+        },
+        {
+          "category": "Cybercrime",
+          "probability": 11.39
+        }
+      ],
+      "model": "TF-IDF + Logistic Regression",
+      "metrics": {
+        "accuracy": 100.0,
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "macro_f1": 100.0
+      }
+    },
+    "legal_references": [
+      {
+        "id": "LAW002",
+        "title": "Theft of Movable Property & Pickpocketing",
+        "section": "Sec 303(2) BNS 2023 (Sec 379 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Imprisonment up to 3 years, or fine, or both",
+        "key_elements": [
+          "Dishonest intention to take movable property",
+          "Taking property out of possession of any person without consent",
+          "Moving of property in order to effect such taking"
+        ],
+        "procedural_guidelines": "Blacklist device IMEI in National CEIR portal immediately; retrieve transport junction CCTV logs within 24 hours.",
+        "content": "Theft consists of dishonestly taking any movable property out of the possession of any person without their consent. In cases involving stolen mobile phones, electronic devices, or transit pickpocketing, Section 303(2) of BNS (IPC 379) applies. The offence requires demonstrating dishonest removal from victim custody.",
+        "similarity": 90.9,
+        "raw_score": 0.561,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 303(2) BNS 2023 (Sec 379 IPC) semantically matches reported facts with 90.9% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW009",
+        "title": "Identity Theft & Unauthorized Digital Access",
+        "section": "Sec 66C IT Act 2000 & Sec 319 BNS 2023",
+        "act": "Information Technology Act 2000 & Bharatiya Nyaya Sanhita",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable / Non-Bailable based on loss",
+        "punishment": "Imprisonment up to 3 years and fine up to ₹1,00,000",
+        "key_elements": [
+          "Fraudulent use of electronic signature, password, or biometric unique ID",
+          "Unauthorized access to email, banking, or cloud repositories",
+          "Masquerading as authentic credential holder to inflict injury or gain"
+        ],
+        "procedural_guidelines": "Secure server audit logs, hash values, and Multi-Factor Authentication session tokens.",
+        "content": "Identity theft occurs when an offender fraudulently or dishonestly makes use of the electronic signature, password, or other unique identification feature of any other person. Section 66C of the IT Act criminalizes identity theft.",
+        "similarity": 84.5,
+        "raw_score": 0.5002,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 66C IT Act 2000 & Sec 319 BNS 2023 semantically matches reported facts with 84.5% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "LAW003",
+        "title": "Robbery & Extortion with Force or Weapon",
+        "section": "Sec 309 BNS 2023 (Sec 392 IPC)",
+        "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable",
+        "punishment": "Rigorous imprisonment up to 10 years (14 years if committed on highway)",
+        "key_elements": [
+          "Theft or extortion accomplished by causing or attempting to cause hurt",
+          "Inducing instant fear of death, grievous hurt, or wrongful restraint",
+          "Physical confrontation or weapon brandishment at the scene"
+        ],
+        "procedural_guidelines": "Deploy mobile forensics team to crime scene; preserve tire tracks or motorcycle surveillance footage along getaway trajectory.",
+        "content": "Robbery is aggravated theft or extortion committed when the offender causes or attempts to cause death, hurt, or wrongful restraint, or fear of instant hurt. Snatching incidents involving weapons, physical assault, or threats of violence qualify as robbery under Section 309 BNS (IPC 392).",
+        "similarity": 82.7,
+        "raw_score": 0.4828,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "explanation": "Statutory provision Sec 309 BNS 2023 (Sec 392 IPC) semantically matches reported facts with 82.7% vector cosine correlation. Review key ingredients and procedural directives before formal framing.",
+        "academic_disclaimer": "Academic research prototype reference. Formal charges require Investigating Officer review.",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "similar_cases": [
+      {
+        "id": "CASE002",
+        "fir_number": "FIR-2023-TRN-0388",
+        "title": "Mobile Phone Snatching from Transit Bus",
+        "police_station": "Railway & Transit Police Station",
+        "applicable_sections": "Sec 379 IPC / Sec 303(2) BNS",
+        "disposition": "Property Recovered via CEIR IMEI Tracking",
+        "modus_operandi": "Thieves operated in pairs near rear footboard of crowded municipal transport bus; distracted victim during boarding and slipped mobile phone from pocket.",
+        "description": "Mobile phone stolen from a public bus near the railway station while the victim was travelling.",
+        "similarity": 91.5,
+        "raw_score": 0.5669,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE011",
+        "fir_number": "FIR-2023-TRN-0518",
+        "title": "Marketplace Pickpocketing & Wallet Theft",
+        "police_station": "Market Yard Police Station",
+        "applicable_sections": "Sec 379 IPC / Sec 303 BNS",
+        "disposition": "CCTV Evidence Corroborated; Habitual Offender Convicted",
+        "modus_operandi": "Slipped wallet from victim's trouser pocket amidst Sunday morning market crowd; immediately discarded credit cards in public bin and retained cash.",
+        "description": "Wallet and phone were pickpocketed by a thief in a crowded market area.",
+        "similarity": 80.9,
+        "raw_score": 0.4655,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "High Precedent Correlation",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      },
+      {
+        "id": "CASE015",
+        "fir_number": "FIR-2023-CYB-0550",
+        "title": "Identity Impersonation on Social Media",
+        "police_station": "Cyber Crime Cell, District HQ",
+        "applicable_sections": "Sec 66C/66D IT Act, Sec 419 IPC",
+        "disposition": "Impersonator Account Deleted; Restraining Order Issued",
+        "modus_operandi": "Downloaded victim's profile pictures to set up clone Facebook account; solicited emergency loans from victim's contact list citing medical distress.",
+        "description": "Suspect cloned citizen profile to request emergency money from contacts.",
+        "similarity": 78.5,
+        "raw_score": 0.4426,
+        "dense_vector_dim": 384,
+        "index_type": "FAISS IndexFlatIP (Dense L2/IP)",
+        "match_level": "Moderate Precedent",
+        "vector_algorithm": "FAISS 384-d Cosine Metric"
+      }
+    ],
+    "evidence": [],
+    "investigation_notes": []
+  }
+]

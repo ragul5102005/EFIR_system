@@ -1,0 +1,162 @@
+[
+  {
+    "id": "LAW001",
+    "title": "Cyber Fraud & Cheating by Personation",
+    "section": "Sec 66D IT Act 2000 / Sec 318(4) BNS 2023 (IPC 420)",
+    "act": "Information Technology Act 2000 & Bharatiya Nyaya Sanhita",
+    "cognizable": "Cognizable",
+    "bailable": "Non-Bailable",
+    "punishment": "Imprisonment up to 3 years and fine up to ₹1,00,000",
+    "key_elements": [
+      "Use of computer resource, mobile network, or messaging application",
+      "Deceptive impersonation of bank official, enterprise, or authority",
+      "Dishonest inducement to extract OTP, credentials, or funds"
+    ],
+    "procedural_guidelines": "Issue immediate preservation directive under Sec 91 CrPC/BNSS to payment intermediary; register freeze order with National Cyber Crime Reporting Portal (1930).",
+    "content": "Cyber fraud involves fraudulent activities carried out using electronic communication, such as emails, WhatsApp, phishing links, or rogue payment interfaces. Victims are deceived into transferring money, sharing OTPs, or revealing UPI credentials. Under Section 66D of the IT Act, cheating by personation using computer resource is punishable with imprisonment up to 3 years."
+  },
+  {
+    "id": "LAW002",
+    "title": "Theft of Movable Property & Pickpocketing",
+    "section": "Sec 303(2) BNS 2023 (Sec 379 IPC)",
+    "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+    "cognizable": "Cognizable",
+    "bailable": "Non-Bailable",
+    "punishment": "Imprisonment up to 3 years, or fine, or both",
+    "key_elements": [
+      "Dishonest intention to take movable property",
+      "Taking property out of possession of any person without consent",
+      "Moving of property in order to effect such taking"
+    ],
+    "procedural_guidelines": "Blacklist device IMEI in National CEIR portal immediately; retrieve transport junction CCTV logs within 24 hours.",
+    "content": "Theft consists of dishonestly taking any movable property out of the possession of any person without their consent. In cases involving stolen mobile phones, electronic devices, or transit pickpocketing, Section 303(2) of BNS (IPC 379) applies. The offence requires demonstrating dishonest removal from victim custody."
+  },
+  {
+    "id": "LAW003",
+    "title": "Robbery & Extortion with Force or Weapon",
+    "section": "Sec 309 BNS 2023 (Sec 392 IPC)",
+    "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+    "cognizable": "Cognizable",
+    "bailable": "Non-Bailable",
+    "punishment": "Rigorous imprisonment up to 10 years (14 years if committed on highway)",
+    "key_elements": [
+      "Theft or extortion accomplished by causing or attempting to cause hurt",
+      "Inducing instant fear of death, grievous hurt, or wrongful restraint",
+      "Physical confrontation or weapon brandishment at the scene"
+    ],
+    "procedural_guidelines": "Deploy mobile forensics team to crime scene; preserve tire tracks or motorcycle surveillance footage along getaway trajectory.",
+    "content": "Robbery is aggravated theft or extortion committed when the offender causes or attempts to cause death, hurt, or wrongful restraint, or fear of instant hurt. Snatching incidents involving weapons, physical assault, or threats of violence qualify as robbery under Section 309 BNS (IPC 392)."
+  },
+  {
+    "id": "LAW004",
+    "title": "Criminal Breach of Trust & Fraudulent Deception",
+    "section": "Sec 316 / 318 BNS 2023 (Sec 406 / 420 IPC)",
+    "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+    "cognizable": "Cognizable",
+    "bailable": "Non-Bailable",
+    "punishment": "Imprisonment up to 7 years and fine",
+    "key_elements": [
+      "Entrustment of property or financial dominion",
+      "Dishonest misappropriation or conversion for personal enrichment",
+      "Intentional fraud, false assurances, or forged commercial documents"
+    ],
+    "procedural_guidelines": "Procure certified banking audit trails, agreements, and audited accounts under Sec 65B/63 Indian Evidence Act.",
+    "content": "Fraud and criminal breach of trust occur when an offender is entrusted with money, assets, or property and dishonestly converts or misappropriates it for personal gain, or fraudulently induces the victim into executing a contract based on false pretexts."
+  },
+  {
+    "id": "LAW005",
+    "title": "Voluntarily Causing Hurt & Physical Assault",
+    "section": "Sec 115 / 117 BNS 2023 (Sec 323 / 324 IPC)",
+    "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+    "cognizable": "Cognizable (if dangerous weapon used)",
+    "bailable": "Bailable / Non-Bailable based on severity",
+    "punishment": "Imprisonment from 1 to 3 years and fine",
+    "key_elements": [
+      "Act causing bodily pain, disease, or infirmity to victim",
+      "Knowledge or intention that injury will result from the physical action",
+      "Use of force or dangerous instruments"
+    ],
+    "procedural_guidelines": "Refer complainant for statutory Medical Legal Examination (MLC) at Government Hospital within 6 hours.",
+    "content": "Assault and voluntarily causing hurt involve acts causing bodily injury, trauma, or apprehension of immediate unlawful force. Where dangerous weapons or instruments are employed, severe statutory penalties apply under Section 117 BNS (IPC 324)."
+  },
+  {
+    "id": "LAW006",
+    "title": "Cyber Stalking, Voyeurism & Electronic Harassment",
+    "section": "Sec 78 BNS 2023 (Sec 354D IPC) & Sec 67 IT Act",
+    "act": "Bharatiya Nyaya Sanhita 2023 & Information Technology Act",
+    "cognizable": "Cognizable",
+    "bailable": "Bailable (first offence) / Non-Bailable (subsequent)",
+    "punishment": "Imprisonment up to 3 years (up to 5 years on repeat) and fine",
+    "key_elements": [
+      "Repeated monitoring of victim internet activity, email, or social profiles",
+      "Unwanted persistent contact despite clear disinterest",
+      "Creation of defamatory impersonation handles or transmission of obscene content"
+    ],
+    "procedural_guidelines": "Issue notice under Sec 79(3)(b) IT Act to social media intermediary to freeze profile and disclose IP signup headers.",
+    "content": "Stalking includes following, contacting, or attempting to contact a person repeatedly despite disinterest, as well as monitoring a person's internet use, social media accounts, or phone messaging. Transmission of obscene digital material additionally invokes Section 67 of the IT Act."
+  },
+  {
+    "id": "LAW007",
+    "title": "Criminal Trespass & Land Encroachment Disputes",
+    "section": "Sec 329 BNS 2023 (Sec 441 / 447 IPC)",
+    "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+    "cognizable": "Cognizable",
+    "bailable": "Bailable",
+    "punishment": "Imprisonment up to 3 months or fine up to ₹5,000",
+    "key_elements": [
+      "Entry into or upon property in possession of another",
+      "Intent to commit an offence or intimidate, insult, or annoy",
+      "Unlawfully remaining upon property after lawful entry"
+    ],
+    "procedural_guidelines": "Requisition municipal survey records and revenue title deeds; execute interim boundary protection report.",
+    "content": "Property disputes involving unauthorized entry or boundary encroachment with intent to commit an offence or intimidate the lawful occupant constitute criminal trespass under Section 329 BNS (IPC 447). Purely civil ownership claims require reference to competent civil courts."
+  },
+  {
+    "id": "LAW008",
+    "title": "House-Breaking by Night & Criminal Burglary",
+    "section": "Sec 331 BNS 2023 (Sec 457 IPC)",
+    "act": "Bharatiya Nyaya Sanhita 2023 / Indian Penal Code",
+    "cognizable": "Cognizable",
+    "bailable": "Non-Bailable",
+    "punishment": "Imprisonment up to 14 years and fine",
+    "key_elements": [
+      "Forced or unauthorized ingress into human dwelling",
+      "Commission of entry by night (between sunset and sunrise)",
+      "Accompanied by intent to commit theft or punishable felony"
+    ],
+    "procedural_guidelines": "Secure latent finger/palm prints on door hardware; summon forensic canine unit and crime scene documentation squad.",
+    "content": "Burglary and house-breaking by night involve unlawful forced entry into a building or residential premises during nighttime hours with intent to commit theft. Carries severe statutory penalties under Section 331 BNS (IPC 457)."
+  },
+  {
+    "id": "LAW009",
+    "title": "Identity Theft & Unauthorized Digital Access",
+    "section": "Sec 66C IT Act 2000 & Sec 319 BNS 2023",
+    "act": "Information Technology Act 2000 & Bharatiya Nyaya Sanhita",
+    "cognizable": "Cognizable",
+    "bailable": "Bailable / Non-Bailable based on loss",
+    "punishment": "Imprisonment up to 3 years and fine up to ₹1,00,000",
+    "key_elements": [
+      "Fraudulent use of electronic signature, password, or biometric unique ID",
+      "Unauthorized access to email, banking, or cloud repositories",
+      "Masquerading as authentic credential holder to inflict injury or gain"
+    ],
+    "procedural_guidelines": "Secure server audit logs, hash values, and Multi-Factor Authentication session tokens.",
+    "content": "Identity theft occurs when an offender fraudulently or dishonestly makes use of the electronic signature, password, or other unique identification feature of any other person. Section 66C of the IT Act criminalizes identity theft."
+  },
+  {
+    "id": "LAW010",
+    "title": "Admissibility & Chain of Custody of Electronic Evidence",
+    "section": "Sec 63 Bharatiya Sakshya Adhiniyam 2023 (Sec 65B IEA)",
+    "act": "Bharatiya Sakshya Adhiniyam 2023 / Indian Evidence Act",
+    "cognizable": "Procedural Standard",
+    "bailable": "Statutory Mandate",
+    "punishment": "Mandatory for Judicial Admissibility",
+    "key_elements": [
+      "Verification of device source authenticity and operating integrity",
+      "Cryptographic SHA-256 hash calculation at acquisition point",
+      "Statutory certificate by person occupying responsible official position"
+    ],
+    "procedural_guidelines": "Generate digital hash immediately upon upload; preserve metadata and maintain unbroken forensic custody ledger.",
+    "content": "Digital evidence including call logs, chat transcripts, audio recordings, and transaction screenshots requires strict compliance with electronic evidence certification standards (Section 63 BSA / 65B Indian Evidence Act). Cryptographic hashes guarantee integrity from tampering."
+  }
+]

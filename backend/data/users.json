@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Ravi Kumar",
+    "email": "ravi@gmail.com",
+    "password": "demo123",
+    "role": "citizen"
+  },
+  {
+    "id": 2,
+    "name": "Priya Sharma",
+    "email": "priya@gmail.com",
+    "password": "demo123",
+    "role": "citizen"
+  },
+  {
+    "id": 3,
+    "name": "Arun Menon",
+    "email": "arun@gmail.com",
+    "password": "demo123",
+    "role": "citizen"
+  },
+  {
+    "id": 10,
+    "name": "Demo Police Officer",
+    "email": "police@aegisfir.com",
+    "password": "police123",
+    "role": "police"
+  },
+  {
+    "id": 11,
+    "name": "Inspector Meena",
+    "email": "meena@aegisfir.com",
+    "password": "police123",
+    "role": "police"
+  }
+]

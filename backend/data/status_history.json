@@ -1,0 +1,58 @@
+[
+  {
+    "complaint_id": "AFR-2026-0001",
+    "status": "SUBMITTED",
+    "updated_at": "2026-10-08",
+    "updated_by": "ravi@gmail.com",
+    "note": "Complaint filed by citizen."
+  },
+  {
+    "complaint_id": "AFR-2026-0002",
+    "status": "UNDER_REVIEW",
+    "updated_at": "2026-10-07",
+    "updated_by": "police@aegisfir.com",
+    "note": "Complaint forwarded for initial review."
+  },
+  {
+    "complaint_id": "AFR-2026-0003",
+    "status": "INVESTIGATION",
+    "updated_at": "2026-10-01",
+    "updated_by": "meena@aegisfir.com",
+    "note": "CCTV footage near railway station requested."
+  },
+  {
+    "complaint_id": "AFR-2026-0011",
+    "status": "SUBMITTED",
+    "updated_at": "2026-10-08",
+    "updated_by": "ravi@gmail.com",
+    "note": "Complaint filed by citizen."
+  },
+  {
+    "complaint_id": "AFR-2026-0012",
+    "status": "SUBMITTED",
+    "updated_at": "2026-10-08",
+    "updated_by": "Ravi Kumar",
+    "note": "Complaint lodged by citizen via citizen portal with automated AI triage & FAISS indexing."
+  },
+  {
+    "complaint_id": "AFR-2026-0013",
+    "status": "SUBMITTED",
+    "updated_at": "2026-10-08",
+    "updated_by": "Ravi Kumar",
+    "note": "Complaint lodged by citizen via citizen portal with automated AI triage & FAISS indexing."
+  },
+  {
+    "complaint_id": "AFR-2026-0014",
+    "status": "SUBMITTED",
+    "updated_at": "2026-10-08",
+    "updated_by": "Ravi Kumar",
+    "note": "Complaint lodged by citizen via citizen portal with automated AI triage & FAISS indexing."
+  },
+  {
+    "complaint_id": "AFR-2026-0015",
+    "status": "SUBMITTED",
+    "updated_at": "2026-10-08",
+    "updated_by": "Ravi Kumar",
+    "note": "Complaint lodged by citizen via citizen portal with automated AI triage & FAISS indexing."
+  }
+]

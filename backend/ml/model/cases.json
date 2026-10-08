@@ -1,0 +1,152 @@
+[
+  {
+    "id": "CASE001",
+    "fir_number": "FIR-2023-CYB-0142",
+    "title": "Online UPI Phishing & Fake Payment Request",
+    "police_station": "Cyber Crime Police Station, Central Range",
+    "applicable_sections": "Sec 66D IT Act, Sec 420 IPC",
+    "disposition": "Chargesheet Filed (Accused Traced via Bank Node)",
+    "modus_operandi": "Victim received an urgent WhatsApp/SMS message with an APK or web link masquerading as an electricity bill update. Clicking prompted UPI PIN entry, routing funds to mule account.",
+    "description": "Victim received a fake payment request through a messaging app and transferred money to an unknown account."
+  },
+  {
+    "id": "CASE002",
+    "fir_number": "FIR-2023-TRN-0388",
+    "title": "Mobile Phone Snatching from Transit Bus",
+    "police_station": "Railway & Transit Police Station",
+    "applicable_sections": "Sec 379 IPC / Sec 303(2) BNS",
+    "disposition": "Property Recovered via CEIR IMEI Tracking",
+    "modus_operandi": "Thieves operated in pairs near rear footboard of crowded municipal transport bus; distracted victim during boarding and slipped mobile phone from pocket.",
+    "description": "Mobile phone stolen from a public bus near the railway station while the victim was travelling."
+  },
+  {
+    "id": "CASE003",
+    "fir_number": "FIR-2023-CYB-0294",
+    "title": "Fake E-Commerce Social Ad Scam",
+    "police_station": "Cyber Cell, Metro Division",
+    "applicable_sections": "Sec 66D IT Act, Sec 420 IPC",
+    "disposition": "Mule Accounts Frozen via Nodal Liaison",
+    "modus_operandi": "Created sponsored social media advertisements offering electronics at 80% discount. Collected advance payments through temporary QR codes before dismantling the domain.",
+    "description": "Customer paid for an online order through a website but never received the product. The website later became inaccessible."
+  },
+  {
+    "id": "CASE004",
+    "fir_number": "FIR-2022-BNK-0511",
+    "title": "ATM Skimming & Magnetic Strip Cloning",
+    "police_station": "Financial Intelligence Wing",
+    "applicable_sections": "Sec 66C IT Act, Sec 379/420 IPC",
+    "disposition": "Inter-State Gang Arrested; Skimmer Seized",
+    "modus_operandi": "Attached miniature magnetic card reader over ATM card slot accompanied by a pinhole camera on the keypad shield to capture PINs.",
+    "description": "Card details were cloned from an ATM machine using a skimming device. Unauthorized withdrawals were made."
+  },
+  {
+    "id": "CASE005",
+    "fir_number": "FIR-2023-CRM-0812",
+    "title": "Daylight Motorcycle Chain Snatching",
+    "police_station": "North Town Police Station",
+    "applicable_sections": "Sec 392 IPC (Robbery) / Sec 309 BNS",
+    "disposition": "Accused Apprehended; Jewellery Restored",
+    "modus_operandi": "Two motorcycle riders with masked faces targeted lone pedestrian on low-traffic service lane; pillion rider snatched gold chain with physical jerk causing victim to fall.",
+    "description": "Gold chain was snatched by two persons on a motorcycle near a busy market road."
+  },
+  {
+    "id": "CASE006",
+    "fir_number": "FIR-2023-CRM-0675",
+    "title": "Residential House Burglary by Forced Entry",
+    "police_station": "West Sub-Division Station",
+    "applicable_sections": "Sec 457 / 380 IPC / Sec 331 BNS",
+    "disposition": "Latent Fingerprints Matched in Criminal Database",
+    "modus_operandi": "Targeted locked residence whose residents were away on vacation; severed rear window grill using hydraulic iron shears and emptied main bedroom locker.",
+    "description": "House was burgled while the family was away. Jewellery and electronics were stolen through forced entry."
+  },
+  {
+    "id": "CASE007",
+    "fir_number": "FIR-2023-CYB-0419",
+    "title": "Bank Officer Impersonation & OTP Fraud",
+    "police_station": "State Cyber Command",
+    "applicable_sections": "Sec 66D IT Act, Sec 419/420 IPC",
+    "disposition": "Beneficiary Wallet Frozen at Payment Gateway",
+    "modus_operandi": "Caller spoofed bank helpline number, warned customer of imminent credit card block, and induced customer to read out the SMS verification code.",
+    "description": "Victim received a call from someone impersonating a bank official and was tricked into sharing OTP."
+  },
+  {
+    "id": "CASE008",
+    "fir_number": "FIR-2022-L&O-0210",
+    "title": "Boundary Dispute Assault with Hurt",
+    "police_station": "East Rural Police Station",
+    "applicable_sections": "Sec 324 / 506 IPC / Sec 117 BNS",
+    "disposition": "Mutual Settlement Under Magistrate Supervision",
+    "modus_operandi": "Dispute between adjacent landholders escalated into heated argument; accused used wooden club causing blunt force contusion to complainant's shoulder.",
+    "description": "Person was assaulted during a neighbourhood property dispute. Injuries required medical attention."
+  },
+  {
+    "id": "CASE009",
+    "fir_number": "FIR-2023-WOM-0199",
+    "title": "Persistent Social Media Cyber Stalking",
+    "police_station": "Women & Child Protection Wing",
+    "applicable_sections": "Sec 354D IPC, Sec 67 IT Act",
+    "disposition": "Accused Bound Over; Electronic Devices Confiscated",
+    "modus_operandi": "Created multiple anonymous Instagram and Snapchat handles to track complainant's movements, sending unwanted explicit photos and threatening phone calls.",
+    "description": "Woman reported repeated unwanted messages, calls and following by an acquaintance over several weeks."
+  },
+  {
+    "id": "CASE010",
+    "fir_number": "FIR-2023-EOW-0341",
+    "title": "Multi-Level High-Yield Ponzi Scheme",
+    "police_station": "Economic Offences Wing (EOW)",
+    "applicable_sections": "Prize Chits Act, Sec 406/420 IPC",
+    "disposition": "Director Assets Attached Under State Deposit Protection Act",
+    "modus_operandi": "Promoted crypto-trading scheme promising 18% guaranteed monthly dividends; paid early returns using new deposits before founders fled overseas.",
+    "description": "Victim invested money in a promised high-return scheme that later disappeared along with the money."
+  },
+  {
+    "id": "CASE011",
+    "fir_number": "FIR-2023-TRN-0518",
+    "title": "Marketplace Pickpocketing & Wallet Theft",
+    "police_station": "Market Yard Police Station",
+    "applicable_sections": "Sec 379 IPC / Sec 303 BNS",
+    "disposition": "CCTV Evidence Corroborated; Habitual Offender Convicted",
+    "modus_operandi": "Slipped wallet from victim's trouser pocket amidst Sunday morning market crowd; immediately discarded credit cards in public bin and retained cash.",
+    "description": "Wallet and phone were pickpocketed by a thief in a crowded market area."
+  },
+  {
+    "id": "CASE012",
+    "fir_number": "FIR-2023-CYB-0630",
+    "title": "Corporate Server Ransomware Encryption",
+    "police_station": "State Cyber Forensic Wing",
+    "applicable_sections": "Sec 43 / 66 IT Act, Sec 384 IPC (Extortion)",
+    "disposition": "Server Decrypted via Certified Incident Response Unit",
+    "modus_operandi": "Exploited unpatched RDP port exposed on enterprise IP; executed LockBit variant encrypting SQL database, leaving ransom note with Tor address.",
+    "description": "Business computer was infected with ransomware. Files were encrypted and a ransom demand was made."
+  },
+  {
+    "id": "CASE013",
+    "fir_number": "FIR-2023-TRN-0412",
+    "title": "Two-Wheeler Vehicle Theft from Residential Road",
+    "police_station": "South Suburban Police Station",
+    "applicable_sections": "Sec 379 IPC / Sec 303 BNS",
+    "disposition": "Vehicle Traced via Automatic Number Plate Recognition (ANPR)",
+    "modus_operandi": "Used master motorcycle key to unlock handle lock within 40 seconds; rode vehicle across district border to sell spare parts.",
+    "description": "Two-wheeler was stolen from outside the apartment parking area. No CCTV was available."
+  },
+  {
+    "id": "CASE014",
+    "fir_number": "FIR-2023-CYB-0177",
+    "title": "Overseas Recruitment & Work Visa Scam",
+    "police_station": "Cyber & Emigration Wing",
+    "applicable_sections": "Emigration Act, Sec 420 IPC",
+    "disposition": "Bank Guarantee Enforced; Compensation Paid",
+    "modus_operandi": "Published bogus overseas airline job openings; required candidates to pay \u20b925,000 for mandatory medical insurance and visa clearance certificates.",
+    "description": "Job seeker paid a registration fee for a fake job offer through an online portal. No job was provided."
+  },
+  {
+    "id": "CASE015",
+    "fir_number": "FIR-2023-CYB-0550",
+    "title": "Identity Impersonation on Social Media",
+    "police_station": "Cyber Crime Cell, District HQ",
+    "applicable_sections": "Sec 66C/66D IT Act, Sec 419 IPC",
+    "disposition": "Impersonator Account Deleted; Restraining Order Issued",
+    "modus_operandi": "Downloaded victim's profile pictures to set up clone Facebook account; solicited emergency loans from victim's contact list citing medical distress.",
+    "description": "Suspect cloned citizen profile to request emergency money from contacts."
+  }
+]
